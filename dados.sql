@@ -252,16 +252,16 @@ INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
 
 INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
     VALUES(
-        '12345678000200',
-        0,
-        0
+        '12345678000100',
+        3,
+        20
     );
 
 INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
     VALUES(
-        '12345678000100',
-        3,
-        20
+        '12345678000200',
+        0,
+        0
     );
 
 -- Carregando dados para a tabela EQUIPAMENTO
@@ -270,7 +270,31 @@ INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
 
 -- Carregando dados para a tabela OFERECIMENTO
 
-
+INSERT INTO OFERECIMENTO(TREINAMENTO, PROFESSOR, DATA_HORA_INICIO, DATA_HORA_FIM, QTD_MAX_ALUNOS, QTD_ALUNOS, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'Treinamento de Excel - Parte 2',
+        '50384912250',
+        TO_TIMESTAMP('31-03-2017 09:30:20', 'DD-MM-YYYY HH:MI:SS'),
+        TO_TIMESTAMP('31-11-2017 23:30:20', 'DD-MM-YYYY HH:MI:SS'),
+        100,
+        53,
+        '12345678000100',
+        3,
+        20
+    );
+    
+INSERT INTO OFERECIMENTO(TREINAMENTO, PROFESSOR, DATA_HORA_INICIO, DATA_HORA_FIM, QTD_MAX_ALUNOS, QTD_ALUNOS, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'Treinamento de elaboracao de CV',
+        '50384912250',
+        TO_TIMESTAMP('15-02-2023 18:09:22', 'DD-MM-YYYY HH:MI:SS'),
+        TO_TIMESTAMP('15-07-2023 18:05:00', 'DD-MM-YYYY HH:MI:SS'),
+        20,
+        20,
+        '12345678000200',
+        0,
+        0
+    );
 
 -- Carregando dados para a tabela AGENDAMENTO
 
