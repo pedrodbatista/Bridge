@@ -100,8 +100,8 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
-        'Treinamento de Excel Parte 2',
-        'Este treinamento tem como objetivo ensinar algumas funcoes especificas de excel, como formulas e automatizacao'
+        'Treinamento de Excel - Parte 2',
+        'Este treinamento tem como objetivo ensinar algumas funcoes especificas de Excel, como formulas e automatizacao'
     );
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
@@ -112,8 +112,8 @@ INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
-        'Treinamento de Excel Parte 1',
-        'Este treinamento tem como objetivo ensinar o basico de excel para organizacao de financas pessoais'
+        'Treinamento de Excel - Parte 1',
+        'Este treinamento tem como objetivo ensinar o basico de Excel para a organizacao de financas pessoais'
     );
 
 -- Carregando dados para a tabela FUNCIONARIO
@@ -212,7 +212,32 @@ INSERT INTO MONITOR(CPF)
 
 -- Carregando dados para a tabela SALA
 
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '12345678000100',
+        3,
+        20,
+        'aula',
+        70
+    );
 
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '12345678000100',
+        3,
+        21,
+        'LAB',
+        80
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '12345678000200',
+        0,
+        0,
+        'AULA',
+        100
+    );
 
 -- Carregando dados para a tabela LABORATORIO
 
