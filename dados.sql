@@ -6,7 +6,7 @@
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
     VALUES(
-        12345678900,
+        '12345678900',
         'Bruno Santos de Sousa',
         'brunodsantos@bol.com.br',
         'SP',
@@ -17,13 +17,13 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'bruno1234',
         TO_DATE('23/05/2003', 'DD/MM/YYYY'),
         'Estudante',
-        1500,
+        1500.00,
         '015992345678'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
     VALUES(
-        12155118900,
+        '12155118900',
         'Johana Jimena Pizarro Laquise',
         'pizarro@gmail.com',
         'MG',
@@ -34,13 +34,13 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'joh1234',
         TO_DATE('23/12/2002', 'DD/MM/YYYY'),
         'Estudante',
-        1500,
+        1500.00,
         '015962565678'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
     VALUES(
-        12345678900,
+        '12345666900',
         'Jhonathan Oliveira Alves',
         'jhonathan@usp.br',
         'SP',
@@ -51,7 +51,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'jjj1234',
         TO_DATE('21/05/2002', 'DD/MM/YYYY'),
         'Artista',
-        1100,
+        1100.00,
         '016924242424'
     );
 
@@ -98,7 +98,23 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
 
 -- Carregando dados para a tabela TREINAMENTO
 
-INSERT INTO
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
+    VALUES(
+        'Treinamento de excel parte 2',
+        NULL
+    );
+
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
+    VALUES(
+        'Treinamento de elaboracao de CV',
+        'Esse treinamento tem como objetivo ensinar como montar um CV'
+    );
+
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
+    VALUES(
+        'Treinamento de excel parte 1',
+        'Esse treinamento tem como objetivo ensinar o basico de excel para organizacao de financas pessoais'
+    );
 
 -- Carregando dados para a tabela FUNCIONARIO
 
