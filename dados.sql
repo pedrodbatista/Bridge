@@ -118,7 +118,44 @@ INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
 
 -- Carregando dados para a tabela FUNCIONARIO
 
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '50384912250',
+        'Danielle Modesti',
+        'dani.modesti@gmail.com',
+        'SP',
+        'Araras',
+        'Jardim Tangara',
+        'Rua Pirarucu',
+        41,
+        12345678000100
+    );
 
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '12346985530',
+        'Helio Nogueira Cardoso',
+        'hncardoso_10@outlook.com',
+        'SP',
+        'Ribeirao Preto',
+        'Alphaville',
+        'Rua C',
+        1929,
+        '12345678000100'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '68395827701',
+        'Andre Parros de Almeida',
+        'alparros.90@hotmail.com',
+        'MG',
+        'Muriaé',
+        'Barreiro',
+        'Avenida Olinto Meireles',
+        1000,
+        '13345878000300'
+    );
 
 -- Carregando dados para a tabela FUNCIONARIO_CARGO
 

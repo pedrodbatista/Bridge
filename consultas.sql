@@ -72,9 +72,9 @@ A.CPF NOT IN
     WHERE UPPER(O.TREINAMENTO) IN ('[%lista]')
 );
 
--- Todos os professores que dao pelo menos 2 aulas em uma determinada unidade [unidade_selected]
+-- Todos os professores que dao pelo menos [qtd_aulas_selected] aulas em uma determinada unidade [unidade_selected]
 SELECT F.NOME, COUNT(*) AS QTD_OFERECIMENTOS FROM
-OFERECIMENTO O JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
+OFERECIMENTO O RIGHT JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
 WHERE O.UNIDADE = '[unidade_selected]'
-AND QTD_OFERECIMENTOS >= 2
+AND QTD_OFERECIMENTOS >= [qtd_aulas_selected]
 GROUP BY(F.NOME);
