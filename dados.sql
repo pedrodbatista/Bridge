@@ -3,6 +3,7 @@
 ------------------------------------------------------------------------------------------------
 
 -- Carregando dados para a tabela ASSISTIDO
+
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
     VALUES(
         12345678900,
@@ -14,11 +15,12 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'Rua Antonio de Sales',
         24,
         'bruno1234',
-        DATE 2003-05-23,
+        TO_DATE('23/05/2003', 'DD/MM/YYYY'),
         'Estudante',
         1500,
         '015992345678'
     );
+
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
     VALUES(
         12155118900,
@@ -30,11 +32,12 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'Rua Joao Peron',
         13,
         'joh1234',
-        DATE 2002-12-23,
+        TO_DATE('23/12/2002', 'DD/MM/YYYY'),
         'Estudante',
         1500,
         '015962565678'
     );
+
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
     VALUES(
         12345678900,
@@ -46,12 +49,11 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'Avenida Trabalhador Sao Carlense',
         345,
         'jjj1234',
-        DATE 2002-05-21,
+        TO_DATE('21/05/2002', 'DD/MM/YYYY'),
         'Artista',
         1100,
         '016924242424'
-    )
-
+    );
 
 -- Carregando dados para a tabela UNIDADE
 
@@ -96,7 +98,7 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
 
 -- Carregando dados para a tabela TREINAMENTO
 
-
+INSERT INTO
 
 -- Carregando dados para a tabela FUNCIONARIO
 
