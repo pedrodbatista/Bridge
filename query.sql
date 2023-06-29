@@ -22,7 +22,7 @@ ASSISTIDO A WHERE NOT EXISTS (
 );
 
 -- Listar solicitacoes nao atendidas ordenadas por grau de prioridade
-SELECT ASSISTIDO, DATA_HORA_SOL, (GRAU_NECESSIDADE / EXTRACT(EPOCH FROM DATA_HORA_SOL)) AS PRIORIDADE
+SELECT ASSISTIDO, DATA_HORA_SOL, (GRAU_NECESSIDADE * 1000 / EXTRACT(EPOCH FROM DATA_HORA_SOL)) AS PRIORIDADE
 FROM SOLICITACAO_DOACAO
 WHERE EQUIPAMENTO ISNULL
 ORDER BY PRIORIDADE;
@@ -72,17 +72,7 @@ A.CPF NOT IN
     WHERE UPPER(O.TREINAMENTO) IN ('[%lista]')
 )
 
--- Contar todos os alunos que tem aula todos os dias da semana
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- Todos os professores que dao aula em uma determinada unidade [unidade_selected]
+SELECT F.NOME FROM
+OFERECIMENTO O JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
+WHERE O.UNIDADE = '[unidade_selected]'
