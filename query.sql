@@ -70,9 +70,10 @@ A.CPF NOT IN
     INSCREVE_SE_EM ISE JOIN OFERECIMENTO O 
     ON O.PROFESSOR = ISE.PROFESSOR AND O.DATA_HORA_INICIO = ISE.INICIO_OFERECIMENTO 
     WHERE UPPER(O.TREINAMENTO) IN ('[%lista]')
-)
+);
 
--- Todos os professores que dao aula em uma determinada unidade [unidade_selected]
-SELECT F.NOME FROM
+-- Todos os professores que dao pelo menos 2 aulas em uma determinada unidade [unidade_selected]
+SELECT F.NOME, COUNT(*) AS QTD_OFERECIMENTOS FROM
 OFERECIMENTO O JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
 WHERE O.UNIDADE = '[unidade_selected]'
+AND QTD_OFERECIMENTOS >= 2;
