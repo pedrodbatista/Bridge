@@ -100,7 +100,7 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
-        'Treinamento de excel parte 2',
+        'Treinamento de Excel Parte 2',
         'Esse treinamento tem como objetivo ensinar algumas funcoes especificas de excel, como formulas e automatizacao'
     );
 
@@ -112,7 +112,7 @@ INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
-        'Treinamento de excel parte 1',
+        'Treinamento de Excel Parte 1',
         'Esse treinamento tem como objetivo ensinar o basico de excel para organizacao de financas pessoais'
     );
 
