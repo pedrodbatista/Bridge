@@ -266,7 +266,55 @@ INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
 
 -- Carregando dados para a tabela EQUIPAMENTO
 
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AD6558HGF977',
+        'CELULAR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
 
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AD6558H977ADR',
+        'NOTEBOOK',
+        'notebook 2gb ram, 128gb hd',
+        '12345678000100',
+        3,
+        21
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'ADSHBA6558HAFER',
+        'CELULAR',
+        NULL,
+        '12345678000100',
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AD6558HGF977',
+        'impressora',
+        NULL,
+        '12345678000100',
+        3,
+        20
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AQ558HG4367',
+        'computador',
+        NULL,
+        '12345678000100',
+        3,
+        20
+    );
 
 -- Carregando dados para a tabela OFERECIMENTO
 
