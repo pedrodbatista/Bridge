@@ -1,3 +1,7 @@
+----------------------------------------------------------------------------------------------------------------------
+-- |                                  CRIACAO DO ESQUEMA DA BASE DE DADOS BRIDGE                                  | --
+----------------------------------------------------------------------------------------------------------------------
+
 -- Caso usuario ja tenha as tabelas, resete-as, junto com dependencias a elas associadas.
 DROP TABLE IF EXISTS ALUNO CASCADE;
 DROP TABLE IF EXISTS CURSO CASCADE;
@@ -345,7 +349,7 @@ CREATE TABLE MONITORIA (
     CONSTRAINT FK_MONITOR_MONITORIA FOREIGN KEY(MONITOR) 
         REFERENCES MONITOR(CPF)
         ON DELETE CASCADE,
-    CONSTRAINT FK_LABORATORIO_MONITORIA FOREIGN KEY(UNIDADE, ANDAR, SALA) 
+    CONSTRAINT FK_LABORATORIO_MONITORIA FOREIGN KEY(UNIDADE, ANDAR, LAB) 
         REFERENCES LABORATORIO(UNIDADE, ANDAR, NUMERO)
         ON DELETE CASCADE,
 
