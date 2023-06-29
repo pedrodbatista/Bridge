@@ -184,7 +184,17 @@ INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
 
 -- Carregando dados para a tabela ADMINISTRADOR
 
+INSERT INTO ADMINISTRADOR(CPF, SENHA)
+    VALUES(
+        '12346985530',
+        '00000000010'
+    );
 
+INSERT INTO ADMINISTRADOR(CPF, SENHA)
+    VALUES(
+        '68395827701',
+        'AL_123'
+    );
 
 -- Carregando dados para a tabela PROFESSOR
 
