@@ -88,9 +88,9 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
         '13345878000300', 
         'Unidade Almas Caridosas',
         'MG',
-        'Muriaé',
-        'São José',
-        'Avenida São Pedro',
+        'Muriae',
+        'Sao Jose',
+        'Avenida Sao Pedro',
         5541,
         '3135468888',
         '3135433129'
@@ -101,19 +101,19 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
         'Treinamento de Excel Parte 2',
-        'Esse treinamento tem como objetivo ensinar algumas funcoes especificas de excel, como formulas e automatizacao'
+        'Este treinamento tem como objetivo ensinar algumas funcoes especificas de excel, como formulas e automatizacao'
     );
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
         'Treinamento de elaboracao de CV',
-        'Esse treinamento tem como objetivo ensinar como montar um CV'
+        'Este treinamento tem como objetivo ensinar como montar um CV'
     );
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
         'Treinamento de Excel Parte 1',
-        'Esse treinamento tem como objetivo ensinar o basico de excel para organizacao de financas pessoais'
+        'Este treinamento tem como objetivo ensinar o basico de excel para organizacao de financas pessoais'
     );
 
 -- Carregando dados para a tabela FUNCIONARIO
@@ -150,7 +150,7 @@ INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, U
         'Andre Parros de Almeida',
         'alparros.90@hotmail.com',
         'MG',
-        'Muriaé',
+        'Muriae',
         'Barreiro',
         'Avenida Olinto Meireles',
         1000,
@@ -158,8 +158,29 @@ INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, U
     );
 
 -- Carregando dados para a tabela FUNCIONARIO_CARGO
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '50384912250',
+        'prof'
+    );
 
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '12346985530',
+        'ADMIN'
+    );
 
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '68395827701',
+        'ADMiN'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '68395827701',
+        'MONITOR'
+    );
 
 -- Carregando dados para a tabela ADMINISTRADOR
 
@@ -167,11 +188,17 @@ INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, U
 
 -- Carregando dados para a tabela PROFESSOR
 
-
+INSERT INTO PROFESSOR(CPF)
+    VALUES(
+        '50384912250'
+    );
 
 -- Carregando dados para a tabela MONITOR
 
-
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '68395827701'
+    );
 
 -- Carregando dados para a tabela SALA
 
