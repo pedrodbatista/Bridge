@@ -241,11 +241,28 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
 
 -- Carregando dados para a tabela LABORATORIO
 
-
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000100',
+        3,
+        21
+    );
 
 -- Carregando dados para a tabela SALA_DE_AULA
 
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        0,
+        0
+    );
 
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000100',
+        3,
+        20
+    );
 
 -- Carregando dados para a tabela EQUIPAMENTO
 
