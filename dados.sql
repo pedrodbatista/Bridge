@@ -8,7 +8,44 @@
 
 -- Carregando dados para a tabela UNIDADE
 
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '12345678000100', 
+        'Unidade Matias e Vila Jose',
+        'SP',
+        'Jacarei',
+        'Vila Jose',
+        'Rua das Rosas',
+        687,
+        '1137847842',
+        '1138572923'
+    );
 
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '12345678000200', 
+        'Unidade Bela Vista e Vila Jambo',
+        'BA',
+        'Juazeiro',
+        'Bela Vista',
+        'Rua Treze',
+        8643,
+        '7133781112',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '13345878000300', 
+        'Unidade Almas Caridosas',
+        'MG',
+        'Muriaé',
+        'São José',
+        'Avenida São Pedro',
+        5541,
+        '3135468888',
+        '3135433129'
+    );
 
 -- Carregando dados para a tabela TREINAMENTO
 
