@@ -1,5 +1,6 @@
 import os
 import psycopg2
+from psycopg2 import errors
 from dotenv import load_dotenv
 
 # Carrega as variáveis de ambiente a partir do arquivo .env
@@ -21,6 +22,9 @@ def main():
         if command == "1":
             try:
                 insert_unidade()
+            except errors.StringDataRightTruncation as e:
+                print(f"\nVocê entrou algum dado além do limite de tamanho da capacidade do banco."
+                      f" Segue mensagem de erro específica: {str(e)}")
             except Exception as e:
                 print(f"\nErro ao inserir a unidade: {str(e)}")
         elif command == "2":
@@ -35,6 +39,7 @@ def main():
         else:
             print("\nComando inválido. Por favor, tente novamente\n.")
 
+# Função que lê da entrada uma string que deve ser um número
 def ler_numero(mensagem, msg_err, digit_amt=None):
     num = ""
     while True:
