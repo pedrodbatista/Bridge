@@ -323,7 +323,7 @@ INSERT INTO OFERECIMENTO(TREINAMENTO, PROFESSOR, DATA_HORA_INICIO, DATA_HORA_FIM
         'Treinamento de Excel - Parte 2',
         '50384912250',
         TO_TIMESTAMP('31-03-2017 09:30:20', 'DD-MM-YYYY HH:MI:SS'),
-        TO_TIMESTAMP('29-11-2017 11:30:20', 'DD-MM-YYYY HH:MI:SS'),
+        TO_TIMESTAMP('29-11-2017 10:30:20', 'DD-MM-YYYY HH:MI:SS'),
         100,
         53,
         '12345678000100',
@@ -402,7 +402,7 @@ INSERT INTO CERTIFICA(ASSISTIDO, TREINAMENTO, DATA_CERTIFICACAO)
     VALUES(
         '12345666900',
         'Treinamento de Elaboracao de CV',
-        TO_DATE('28/06/2023', 'DD/MM/YYYY')
+        TO_DATE('28/06/2023', 'DD/MM/YYYY') -- O certificado eh registrado um dia depois do fim do oferecimento
     );
 
 -- Carregando dados para a tabela MONITORIA
@@ -412,7 +412,29 @@ INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR_LAB)
         '68395827701',
         3,
         'TARDE',
-        
+        '12345678000100',
+        3,
+        21
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR_LAB)
+    VALUES(
+        '68395827701',
+        1,
+        'NOITE',
+        '12345678000100',
+        3,
+        21
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR_LAB)
+    VALUES(
+        '68395827701',
+        6,
+        'MANHA',
+        '12345678000100',
+        3,
+        21
     );
 
 -- Carregando dados para a tabela SOLICITACAO_DOACAO
