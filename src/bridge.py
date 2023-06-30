@@ -55,6 +55,8 @@ def ler_numero(mensagem, msg_err, digit_amt=None):
         
 
 def insert_unidade():
+    conn = None
+
     try:
         conn = psycopg2.connect(
             host=os.getenv("DB_HOST"),
@@ -94,11 +96,13 @@ def insert_unidade():
             print("\nUnidade inserida com sucesso!\n")
 
     except Exception as e:
-        conn.rollback()
+        if conn:
+            conn.rollback()
         raise e
 
     finally:
-        conn.close()
+        if conn:
+            conn.close()
 
 
 def input_estado_valido(message):
@@ -140,6 +144,7 @@ def print_text_in_box(text):
     print('|' + '_' * (max_length + 2) + '|')
 
 def existe_unidade(cnpj):
+    conn = None
     unidade = []
     try:
         conn = psycopg2.connect(
@@ -163,11 +168,14 @@ def existe_unidade(cnpj):
         raise e
 
     finally:
-        conn.close()
+        if conn:
+            conn.close()
 
     return (unidade is not None)
 
 def buscar_unidade_por_cnpj(cnpj):
+    conn = None
+
     try:
         conn = psycopg2.connect(
             host=os.getenv("DB_HOST"),
@@ -217,7 +225,8 @@ def buscar_unidade_por_cnpj(cnpj):
         raise e
 
     finally:
-        conn.close()
+        if conn:
+            conn.close()
 
 
 if __name__ == "__main__":
