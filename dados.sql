@@ -1807,7 +1807,248 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
         66
     );
 
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        7, 
+        'LAB', 
+        85
+    );
 
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        9, 
+        'LAB', 
+        92
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        8, 
+        'LAB', 
+        73
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        12, 
+        'LAB', 
+        67
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        2, 
+        4, 
+        'LAB', 
+        99
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        2, 
+        13, 
+        'LAB', 
+        54
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        11, 
+        'LAB', 
+        78
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        6, 
+        'LAB', 
+        88
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        2, 
+        14, 
+        'LAB', 
+        71
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        2, 
+        'LAB', 
+        95
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        10, 
+        'LAB', 
+        60
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        2, 
+        3, 
+        'LAB', 
+        81
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        5, 
+        'LAB', 
+        76
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        13, 
+        'LAB', 
+        63
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        2, 
+        2, 
+        'LAB', 
+        89
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        14, 
+        'LAB', 
+        72
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        13, 
+        'Aula', 
+        63
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        2, 
+        2, 
+        'Aula', 
+        89
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        14, 
+        'Aula', 
+        72
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '23456789000300', 
+        1, 
+        1, 
+        'Aula', 
+        71
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        1, 
+        'AULA', 
+        50
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        2, 
+        'LAB', 
+        60
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        3, 
+        'AULA', 
+        70
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        4, 
+        'LAB', 
+        80
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        5, 
+        'AULA', 
+        90
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        1, 
+        6, 
+        'LAB', 
+        100
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000200', 
+        0, 
+        7, 
+        'AULA', 
+        100
+    );
 
 
 -- Carregando dados para a tabela LABORATORIO
