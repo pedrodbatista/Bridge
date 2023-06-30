@@ -3804,8 +3804,13 @@ INSERT INTO OFERECIMENTO(TREINAMENTO, PROFESSOR, DATA_HORA_INICIO, DATA_HORA_FIM
         'Treinamento de Excel Parte 2',
         '50384912250',
         TO_TIMESTAMP('31-03-2017 09:30:20', 'DD-MM-YYYY HH24:MI:SS'),
+<<<<<<< HEAD
         TO_TIMESTAMP('29-11-2017 10:30:20', 'DD-MM-YYYY HH24:MI:SS'),
         60,
+=======
+        TO_TIMESTAMP('29-11-2024 10:30:20', 'DD-MM-YYYY HH24:MI:SS'),
+        100,
+>>>>>>> 9e139e3 (Consulta 3 funcionando (Sem 0 do left join, e PK do agendamento hard coded))
         53,
         '12345678000100',
         3,
@@ -3817,7 +3822,7 @@ INSERT INTO OFERECIMENTO(TREINAMENTO, PROFESSOR, DATA_HORA_INICIO, DATA_HORA_FIM
         'Treinamento de Elaboracao de CV',
         '50384912250',
         TO_TIMESTAMP('07-02-2023 14:00:00', 'DD-MM-YYYY HH24:MI:SS'),
-        TO_TIMESTAMP('27-06-2023 15:30:00', 'DD-MM-YYYY HH24:MI:SS'),
+        TO_TIMESTAMP('27-06-2024 15:30:00', 'DD-MM-YYYY HH24:MI:SS'),
         20,
         20,
         '12345678000200',
