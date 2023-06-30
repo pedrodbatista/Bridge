@@ -2259,6 +2259,376 @@ INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
         NULL
     );
 
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'KfaS34g25',
+        'computador',
+        NULL,
+        '12345678000100',
+        1,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'Af3DJK3s5TfW2',
+        'computador',
+        NULL,
+        '12345678000100',
+        1,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'GgSW34d25',
+        'computador',
+        NULL,
+        '12345678000100',
+        1,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'KfaS342s5',
+        'computador',
+        NULL,
+        '12345678000100',
+        1,
+        5
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'Af3DJf2',
+        'computador',
+        NULL,
+        '12345678000100',
+        1,
+        5
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'GgSW3d24g',
+        'computador',
+        NULL,
+        '12345678000100',
+        1,
+        5
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'Kf1DQaS34f5',
+        'computador',
+        NULL,
+        '12345678000100',
+        2,
+        14
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AAf34DJFf24G',
+        'computador',
+        NULL,
+        '12345678000100',
+        2,
+        14
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1GgSG2d24g',
+        'computador',
+        NULL,
+        '12345678000100',
+        2,
+        14
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'Kf1S34f5',
+        'computador',
+        NULL,
+        '12345678000200',
+        1,
+        1
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f34DJFf24G',
+        'computador',
+        NULL,
+        '12345678000200',
+        1,
+        1
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1GgSG24g',
+        'computador',
+        NULL,
+        '12345678000200',
+        1,
+        1
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1Kf1Sd34f5',
+        'computador',
+        NULL,
+        '12345678000200',
+        1,
+        3
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'hf34DJFf2f4G',
+        'computador',
+        NULL,
+        '12345678000200',
+        1,
+        3
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1GfgSG246hg',
+        'computador',
+        NULL,
+        '12345678000200',
+        1,
+        3
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f1Sda5',
+        'computador',
+        NULL,
+        '13345878000300',
+        3,
+        12
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'kyu34DJFda',
+        'computador',
+        NULL,
+        '13345878000300',
+        3,
+        12
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1Gfgga32',
+        'computador',
+        NULL,
+        '13345878000300',
+        3,
+        12
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f1Sdd3aa5',
+        'computador',
+        NULL,
+        '87654321000100',
+        0,
+        1
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'k4234DJFda',
+        'computador',
+        NULL,
+        '87654321000100',
+        0,
+        1
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1Gge2rgs3a32',
+        'computador',
+        NULL,
+        '87654321000100',
+        0,
+        1
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f1SdD12aa5',
+        'computador',
+        NULL,
+        '87654321000100',
+        0,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'k4FA253DJFda',
+        'computador',
+        NULL,
+        '87654321000100',
+        0,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1GT32g5252s3a32',
+        'computador',
+        NULL,
+        '87654321000100',
+        0,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f122a5aE5',
+        'NOTEBOOK',
+        NULL,
+        '98765432000200', 
+        1, 
+        22
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'kFD1Fda',
+        'computador',
+        NULL,
+        '98765432000200', 
+        1, 
+        22
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1T32ge2s3a32',
+        'computador',
+        NULL,
+        '98765432000200', 
+        1, 
+        22
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1GT32g5a32',
+        'IMPRESSORA',
+        NULL,
+        '87654321000100',
+        0,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f12GPO2E5',
+        'CELULAR',
+        NULL,
+        '98765432000200', 
+        1, 
+        22
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1Gfa32',
+        'IMPRESSORA',
+        NULL,
+        '13345878000300',
+        3,
+        12
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f1S4PIaa5',
+        'CALCULADORA',
+        NULL,
+        '87654321000100',
+        0,
+        1
+    );
+    
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'kFWDGM1GFda',
+        'COMPUTADOR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1T3s3a3GHY2',
+        'computador',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1GLKJ5a32',
+        'NOTEBOOK',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f12GL9T2E5',
+        'CELULAR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '1GfaTYK32',
+        'IMPRESSORA',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'f1PIaa5',
+        'CALCULADORA',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
 -- Carregando dados para a tabela OFERECIMENTO
 
 INSERT INTO OFERECIMENTO(TREINAMENTO, PROFESSOR, DATA_HORA_INICIO, DATA_HORA_FIM, QTD_MAX_ALUNOS, QTD_ALUNOS, UNIDADE, ANDAR, SALA)
