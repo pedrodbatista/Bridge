@@ -30,13 +30,13 @@ ORDER BY PRIORIDADE;
 -- Contar por dia da semana quantos oferecimentos estao ativos em uma determinada unidade [undade_selected]
 SELECT 
 CASE
-    WHEN DIA_DA_SEMANA = 0 THEN 'Domingo'
-    WHEN DIA_DA_SEMANA = 1 THEN 'Segunda'
-    WHEN DIA_DA_SEMANA = 2 THEN 'Terca'
-    WHEN DIA_DA_SEMANA = 3 THEN 'Quarta'
-    WHEN DIA_DA_SEMANA = 4 THEN 'Quinta'
-    WHEN DIA_DA_SEMANA = 5 THEN 'Sexta'
-    WHEN DIA_DA_SEMANA = 6 THEN 'Sabado'
+    WHEN A.DIA_SEMANA = 0 THEN 'Domingo'
+    WHEN A.DIA_SEMANA = 1 THEN 'Segunda'
+    WHEN A.DIA_SEMANA = 2 THEN 'Terca'
+    WHEN A.DIA_SEMANA = 3 THEN 'Quarta'
+    WHEN A.DIA_SEMANA = 4 THEN 'Quinta'
+    WHEN A.DIA_SEMANA = 5 THEN 'Sexta'
+    WHEN A.DIA_SEMANA = 6 THEN 'Sabado'
 END as DAY_NAME,
 COUNT(HORA_INICIO) AS QTD_AGENDAMENTOS FROM
 OFERECIMENTO O LEFT JOIN AGENDAMENTO A ON O.PROFESSOR = A.PROFESSOR AND O.DATA_HORA_INICIO = A.DATA_HORA_INICIO
@@ -50,13 +50,13 @@ AND CURRENT_DATE BETWEEN O.DATA_HORA_INICIO AND O.DATA_HORA_FIM
 GROUP BY DAY_NAME;
 -- GROUP BY
 -- CASE
---     WHEN DIA_DA_SEMANA = 0 THEN 'Domingo'
---     WHEN DIA_DA_SEMANA = 1 THEN 'Segunda'
---     WHEN DIA_DA_SEMANA = 2 THEN 'Terca'
---     WHEN DIA_DA_SEMANA = 3 THEN 'Quarta'
---     WHEN DIA_DA_SEMANA = 4 THEN 'Quinta'
---     WHEN DIA_DA_SEMANA = 5 THEN 'Sexta'
---     WHEN DIA_DA_SEMANA = 6 THEN 'Sabado'
+--     WHEN A.DIA_SEMANA = 0 THEN 'Domingo'
+--     WHEN A.DIA_SEMANA = 1 THEN 'Segunda'
+--     WHEN A.DIA_SEMANA = 2 THEN 'Terca'
+--     WHEN A.DIA_SEMANA = 3 THEN 'Quarta'
+--     WHEN A.DIA_SEMANA = 4 THEN 'Quinta'
+--     WHEN A.DIA_SEMANA = 5 THEN 'Sexta'
+--     WHEN A.DIA_SEMANA = 6 THEN 'Sabado'
 -- END;
 
 
