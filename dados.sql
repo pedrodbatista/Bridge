@@ -1606,6 +1606,196 @@ INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
         20
     );
 
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AQ5584367',
+        'calculadora',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '34558HG4367',
+        'CALCULADORA',
+        'Calculadora cientifica',
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AFAN2467',
+        'computador',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'ADASJK3425',
+        'computador',
+        NULL,
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'ADJK3425',
+        'computador',
+        NULL,
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'GASD33425',
+        'computador',
+        NULL,
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'FD325',
+        'computador',
+        NULL,
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'HFBDS892',
+        'computador',
+        NULL,
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'FANL289',
+        'computador',
+        NULL,
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'FDAS12S80AS',
+        'IMPRESSORA',
+        NULL,
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'ADANKS3425',
+        'computador',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'A3DJK35TWSD2',
+        'computador',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'G23DGSW3425',
+        'computador',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'ME94NF977',
+        'CELULAR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'M775F2',
+        'CELULAR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'G74F7Y',
+        'CELULAR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'AD65I587ASDR',
+        'NOTEBOOK',
+        'notebook 2gb ram, 128gb hd',
+        '12345678000200',
+        0,
+        0
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'M7GF2',
+        'CELULAR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'G7Y4RA',
+        'CELULAR',
+        NULL,
+        NULL,
+        NULL,
+        NULL
+    );
+
 -- Carregando dados para a tabela OFERECIMENTO
 
 INSERT INTO OFERECIMENTO(TREINAMENTO, PROFESSOR, DATA_HORA_INICIO, DATA_HORA_FIM, QTD_MAX_ALUNOS, QTD_ALUNOS, UNIDADE, ANDAR, SALA)
