@@ -1251,11 +1251,6 @@ INSERT INTO MONITOR(CPF)
         '72659843120'
     );
 
-INSERT INTO MONITOR(CPF)
-    VALUES(
-        '72659843120'
-    );
-
 -- Carregando dados para a tabela SALA
 
 INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
@@ -1306,15 +1301,6 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
 INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
     VALUES(
         '12345678000100',
-        0,
-        02,
-        'LAB',
-        22
-    );
-
-INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
-    VALUES(
-        '12345678000100',
         1,
         5,
         'aula',
@@ -1333,8 +1319,8 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
 INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
     VALUES(
         '12345678000100',
-        0,
-        69,
+        3,
+        21,
         'LAB',
         96
     );
@@ -1767,7 +1753,7 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
         '87654321000100', 
         1, 
         9, 
-        'SALA', 
+        'AULA', 
         58
     );
 
@@ -1805,15 +1791,6 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
         22, 
         'LAB',
         66
-    );
-
-INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
-    VALUES(
-        '98765432000200', 
-        0, 
-        7, 
-        'LAB', 
-        85
     );
 
 INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
@@ -1947,33 +1924,6 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
         '98765432000200', 
         1, 
         14, 
-        'LAB', 
-        72
-    );
-
-INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
-    VALUES(
-        '98765432000200', 
-        0, 
-        13, 
-        'Aula', 
-        63
-    );
-
-INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
-    VALUES(
-        '98765432000200', 
-        2, 
-        2, 
-        'Aula', 
-        89
-    );
-
-INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
-    VALUES(
-        '98765432000200', 
-        1, 
-        14, 
         'Aula', 
         72
     );
@@ -1994,15 +1944,6 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
         1, 
         'AULA', 
         50
-    );
-
-INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
-    VALUES(
-        '98765432000200', 
-        1, 
-        2, 
-        'LAB', 
-        60
     );
 
 INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
