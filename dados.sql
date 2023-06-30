@@ -626,6 +626,108 @@ INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
         'Este treinamento tem como objetivo ensinar o basico de Excel para a organizacao de financas pessoais'
     );
 
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso para Iniciantes em Hardware', 
+        'Este curso tem como objetivo ensinar os conceitos básicos de hardware de computadores.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Treinamento de Utilização de Calculadoras', 
+        'Neste treinamento, os participantes serão capacitados no uso de calculadoras, abrangendo operações básicas, funções avançadas e aplicações práticas em matemática e finanças.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso de Introdução à Internet', 
+        'Neste curso, os participantes aprenderão os conceitos básicos da Internet, navegação na web, pesquisa online e segurança na Internet.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Treinamento de Uso de E-mail', 
+        'Neste treinamento, os participantes serão capacitados no uso de e-mails, abrangendo criação de contas, envio de mensagens, anexos e organização da caixa de entrada.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso de Noções Básicas de Redes Sociais', 
+        'Neste curso, os participantes serão introduzidos às principais redes sociais, aprendendo a criar perfis, interagir com amigos, compartilhar conteúdo e ajustar configurações de privacidade.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Treinamento de Uso de Aplicativos de Mensagens', 
+        'Neste treinamento, os participantes serão instruídos no uso de aplicativos de mensagens, como WhatsApp e Messenger, abrangendo envio de mensagens, chamadas de voz, compartilhamento de mídia e configurações de privacidade.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso de Introdução às Planilhas Eletrônicas', 
+        'Neste curso, os participantes aprenderão os conceitos básicos de planilhas eletrônicas, utilizando programas como Excel ou Google Sheets, abrangendo criação de planilhas, formatação, fórmulas básicas e organização de dados.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Identificando Fake News nas notícias do WhatsApp', 
+        'Aprenda a identificar notícias falsas e boatos nas mensagens do WhatsApp.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Google Docs: formatando documentos', 
+        'Domine as principais ferramentas de formatação e edição de documentos no Google Docs.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso de Introdução à Fotografia Digital', 
+        'Neste curso, os participantes aprenderão os conceitos básicos da fotografia digital, incluindo o funcionamento da câmera, técnicas de composição e edição de fotos.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Treinamento de Uso de Redes Wi-Fi', 
+        'Neste treinamento, os participantes aprenderão a se conectar e configurar redes Wi-Fi, além de entender conceitos de segurança e solução de problemas.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso de Uso de Aplicativos de Transporte', 
+        'Neste curso, os participantes aprenderão a utilizar aplicativos de transporte, como Uber e Lyft, incluindo solicitação de corridas, acompanhamento de motoristas e pagamento eletrônico.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Treinamento de Uso de Smart TVs', 
+        'Neste treinamento, os participantes serão instruídos no uso de Smart TVs, incluindo configuração, acesso a conteúdos online, instalação de aplicativos e controle remoto.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso de Segurança Online', 
+        'Neste curso, os participantes aprenderão sobre segurança online, incluindo proteção de senhas, navegação segura, detecção de ameaças e proteção contra malware.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Treinamento de Uso de Vídeo Chamadas', 
+        'Neste treinamento, os participantes serão capacitados no uso de aplicativos de vídeo chamadas, como Zoom e Skype, incluindo configuração, realização de chamadas e recursos avançados.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Curso de Edição Básica de Vídeos', 
+        'Neste curso, os participantes aprenderão os conceitos básicos de edição de vídeos, utilizando programas como Adobe Premiere ou iMovie, abrangendo corte, adição de efeitos, transições e exportação.'
+    );
+
+INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+    VALUES (
+        'Treinamento de Utilização de Tablets', 
+        'Neste treinamento, os participantes serão instruídos na utilização de tablets, abrangendo configuração, navegação na web, download de aplicativos e personalização.'
+    );
+
 -- Carregando dados para a tabela FUNCIONARIO
 
 INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
