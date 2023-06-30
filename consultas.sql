@@ -62,19 +62,19 @@ GROUP BY DAY_NAME;
 
 
 -- Todos os alunos que nao fizeram nenhum treinamento em [[tr_selected1], [tr_selected2]]
-SELECT * FROM
+SELECT A.NOME FROM
 ASSISTIDO A WHERE
 A.CPF NOT IN
 (
     SELECT ISE.ASSISTIDO FROM
     INSCREVE_SE_EM ISE JOIN OFERECIMENTO O 
     ON O.PROFESSOR = ISE.PROFESSOR AND O.DATA_HORA_INICIO = ISE.INICIO_OFERECIMENTO 
-    WHERE UPPER(O.TREINAMENTO) IN ('[%lista]')
+    WHERE UPPER(O.TREINAMENTO) IN ('JAVA', 'PYTHON')
 );
 
 -- Todos os professores que dao pelo menos [qtd_aulas_selected] aulas em uma determinada unidade [unidade_selected]
 SELECT F.NOME, COUNT(*) AS QTD_OFERECIMENTOS FROM
 OFERECIMENTO O RIGHT JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
-WHERE O.UNIDADE = '[unidade_selected]'
-AND QTD_OFERECIMENTOS >= [qtd_aulas_selected]
-GROUP BY(F.NOME);
+WHERE O.UNIDADE = '12345678000100'
+GROUP BY(F.NOME)
+HAVING COUNT(*) >= 2;
