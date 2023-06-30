@@ -14,7 +14,7 @@ def main():
         print("  2 - Consultar unidade por CNPJ.")
         print("  3 - Sair.")
 
-        command = input("Digite o código do comando: ")
+        command = input("Digite o código do comando: ").strip()
 
         os.system('clear')
 
@@ -25,7 +25,7 @@ def main():
                 print(f"\nErro ao inserir a unidade: {str(e)}")
         elif command == "2":
             try:
-                cnpj = input("Digite o CNPJ da unidade a ser buscada: ")
+                cnpj = ler_numero("Digite o CNPJ da unidade a ser buscada: ", "O CNPJ deve ser composto apenas de dígitos (14, em específico)", 14)
                 buscar_unidade_por_cnpj(cnpj)
             except Exception as e:
                 print(f"\nErro ao buscar a unidade: {str(e)}")
@@ -35,6 +35,19 @@ def main():
         else:
             print("\nComando inválido. Por favor, tente novamente\n.")
 
+def ler_numero(mensagem, msg_err, digit_amt=None):
+    num = ""
+    while True:
+        num = input(mensagem).strip()
+        if not num.isdigit():
+            print("\n" + msg_err + "\n")
+        elif digit_amt != None and len(num) != digit_amt:
+            print("\nEntre um número de " + str(digit_amt) + " dígitos.\n")
+        else:
+            break
+
+    return num
+        
 
 def insert_unidade():
     try:
@@ -48,21 +61,22 @@ def insert_unidade():
 
         with conn.cursor() as cur:
             # Coletar os dados da unidade
-            cnpj = input("Digite o CNPJ da unidade: ")
+            cnpj = ler_numero("Digite o CNPJ da unidade: ", "O CNPJ deve ser composto apenas de dígitos (14, em específico)", 14)
 
             if (existe_unidade(cnpj)):
                 raise Exception("\nJá existe uma unidade com este CNPJ!\n")
 
-            comunidade = input("Digite o nome da comunidade: ")
+            comunidade = input("Digite o nome da comunidade: ").strip()
             estado = input_estado_valido("Digite o número correspondente ao estado da unidade: ")
-            cidade = input("Digite a cidade da unidade: ")
-            bairro = input("Digite o bairro da unidade: ")
-            rua = input("Digite a rua da unidade: ")
-            numero = input("Digite o número da unidade: ")
-            tel1 = input("Digite o telefone 1 da unidade: ")
+            cidade = input("Digite a cidade da unidade: ").strip()
+            bairro = input("Digite o bairro da unidade: ").strip()
+            rua = input("Digite a rua da unidade: ").strip()
+            numero = ler_numero("Digite o número da unidade: ", "O número da unidade deve ser composto apenas de dígitos")
 
-            command = input("Quer adicionar outro telefone para a unidade? Digite 'S' caso queira ou qualquer outra coisa caso não queira: ")
-            tel2 = input("Digite o telefone 2 da unidade: ") if command.lower() == 's' else None
+            tel1 = ler_numero("Digite o telefone 1 da unidade: ", "O telefone deve conter apenas dígitos.")
+
+            command = input("Quer adicionar outro telefone para a unidade? Digite 'S' se sim, outra coisa se não.").strip()
+            tel2 = ler_numero("Digite o telefone 1 da unidade: ", "O telefone deve conter apenas dígitos.") if command[0].lower() == 's' else None
 
             # Executar a inserção na tabela de unidade
             cur.execute(
