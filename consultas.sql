@@ -74,8 +74,8 @@ A.CPF NOT IN
     WHERE UPPER(O.TREINAMENTO) IN ('JAVA', 'PYTHON')
 );
 
--- Todos os professores que dao pelo menos [qtd_aulas_selected] aulas em uma determinada unidade [unidade_selected]
-SELECT F.NOME, O.PROFESSOR, COUNT(O.TREINAMENTO) AS QTD_OFERECIMENTOS FROM
+-- Todos os professores que dao pelo menos [qtd_aulas_selected] aulas em uma determinada unidade [unidade_selected], e a quantidade media de alunos nesses oferecimentos
+SELECT F.NOME, O.PROFESSOR, AVG(QTD_ALUNOS), COUNT(O.TREINAMENTO) AS QTD_OFERECIMENTOS FROM
 OFERECIMENTO O RIGHT JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
 WHERE O.UNIDADE = '12345678000100'
 GROUP BY(F.NOME, O.PROFESSOR)
