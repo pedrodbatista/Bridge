@@ -1,13 +1,13 @@
-SELECT * FROM
+SELECT A.CPF, A.NOME, A.EMAIL FROM
 -- Consulta de todos os alunos que completaram todos os treinamentos
--- oferecidos por um professor [prof_selected]
+-- oferecidos por um professor [Danielle Modesti]
 ASSISTIDO A WHERE NOT EXISTS (
 
-    -- Todos os treinamentos que um determinado professor [prof_escolhido] ministra
+    -- Todos os treinamentos que um determinado professor [Danielle Modesti] ministra
     (
         SELECT O.TREINAMENTO FROM 
         OFERECIMENTO O JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
-        WHERE F.NOME = '{prof_selected}'
+        WHERE F.NOME = 'Danielle Modesti'
     )
 
     EXCEPT
@@ -40,7 +40,7 @@ CASE
 END as DAY_NAME,
 COUNT(HORA_INICIO) AS QTD_AGENDAMENTOS FROM
 OFERECIMENTO O LEFT JOIN AGENDAMENTO A ON O.PROFESSOR = A.PROFESSOR AND O.DATA_HORA_INICIO = A.DATA_HORA_INICIO
-WHERE O.UNIDADE = '{undade_selected}'
+WHERE O.UNIDADE = '12345678000100'
 
 AND CURRENT_DATE BETWEEN O.DATA_HORA_INICIO AND O.DATA_HORA_FIM
 -- AND CURRENT_DATE >= O.DATA_HORA_INICIO
