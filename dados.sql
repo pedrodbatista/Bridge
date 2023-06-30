@@ -4138,6 +4138,135 @@ INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
         21
     );
 
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        3,
+        'TARDE',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        1,
+        'MANHA',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        2,
+        'MANHA',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        3,
+        'MANHA',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        1,
+        'NOITE',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        2,
+        'NOITE',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        3,
+        'NOITE',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        4,
+        'NOITE',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '65893412048',
+        5,
+        'NOITE',
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '30957864027',
+        0,
+        'MANHA',
+        '45678901234500', 
+        1, 
+        1
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '30957864027',
+        0,
+        'TARDE',
+        '45678901234500', 
+        1, 
+        1
+    );
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '72659843120',
+        6,
+        'MANHA',
+        '45678901234500', 
+        1, 
+        3
+    );
+
+INSERT INTO MONITORIA(MONITOR, DIA_DA_SEMANA, TURNO, UNIDADE, ANDAR, LAB)
+    VALUES(
+        '72659843120',
+        3,
+        'TARDE',
+        '45678901234500', 
+        1, 
+        3
+    );
+
 -- Carregando dados para a tabela SOLICITACAO_DOACAO
 
 INSERT INTO SOLICITACAO_DOACAO(ASSISTIDO, DATA_HORA_SOL, GRAU_NECESSIDADE, TIPO_EQUIPAMENTO, EQUIPAMENTO, DATA_HORA_DOACAO)
