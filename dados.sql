@@ -68,7 +68,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'carla1234',
         TO_DATE('15/09/1990', 'DD/MM/YYYY'),
         'Auxiliar de Limpeza',
-        1300.00,
+        1310.39,
         '021987654321'
     );
 
@@ -84,8 +84,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         500,
         'gabriel1234',
         TO_DATE('07/11/1985', 'DD/MM/YYYY'),
-        'Uber',
-        3159.63,
+        'Motorista de Aplicativo',
+        1787.63,
         '011987654321'
     );
 
@@ -102,7 +102,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'laura1234',
         TO_DATE('25/03/1992', 'DD/MM/YYYY'),
         'Secretaria',
-        5000.00,
+        1405.83,
         '031987654321'
     );
 
@@ -119,7 +119,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'ricardo1234',
         TO_DATE('12/07/1995', 'DD/MM/YYYY'),
         'Garçom',
-        1500.00,
+        1479.67,
         '011987654321'
     );
 
@@ -136,7 +136,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'fernanda1234',
         TO_DATE('05/11/1990', 'DD/MM/YYYY'),
         'Atendente de Telemarketing',
-        1800.00,
+        1325.29,
         '021987654321'
     );
 
@@ -152,8 +152,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         150,
         'marcelo1234',
         TO_DATE('20/02/1988', 'DD/MM/YYYY'),
-        'Motorista',
-        2500.00,
+        'Motorista de Onibus',
+        1491.02,
         '031987654321'
     );
 
@@ -170,7 +170,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'amanda1234',
         TO_DATE('18/09/1993', 'DD/MM/YYYY'),
         'Recepcionista',
-        2000.00,
+        1242.88,
         '011987654321'
     );
 
@@ -187,7 +187,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'lucas1234',
         TO_DATE('15/09/1990', 'DD/MM/YYYY'),
         'Auxiliar Administrativo',
-        2500.00,
+        1356.23,
         '092987654321'
     );
 
@@ -203,8 +203,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         100,
         '!2@4N&5z',
         TO_DATE('18/06/1990', 'DD/MM/YYYY'),
-        'Engenheiro de Software',
-        2900.00,
+        'Vendedor',
+        1312.98,
         '048987654321'
     );
 
@@ -221,7 +221,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'T!0y%w8@',
         TO_DATE('30/12/1992', 'DD/MM/YYYY'),
         'Enfermeira',
-        2500.00,
+        1921.76,
         '092987654321'
     );
 
@@ -237,8 +237,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         500,
         'Minh@Senh@123',
         TO_DATE('25/07/1996', 'DD/MM/YYYY'),
-        'Arquiteta',
-        3000.00,
+        'Diarista',
+        1467.40,
         '081987654321'
     );
 
@@ -255,7 +255,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'Senha123!',
         TO_DATE('15/09/1993', 'DD/MM/YYYY'),
         'Professor',
-        2600.00,
+        1734.72,
         '084987654321'
     );
 
@@ -271,8 +271,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         250,
         'S3nhaFort3!',
         TO_DATE('05/12/1990', 'DD/MM/YYYY'),
-        'Advogado',
-        3200.00,
+        'Agricultor',
+        1294.23,
         '085987654321'
     );
 
@@ -288,8 +288,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         100,
         'P@ssw0rd!',
         TO_DATE('10/08/1995', 'DD/MM/YYYY'),
-        'Enfermeira',
-        2800.00,
+        'Feirante',
+        1391.42,
         '082987654321'
     );
 
@@ -305,8 +305,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         300,
         'P@ssword123',
         TO_DATE('20/06/1988', 'DD/MM/YYYY'),
-        'Engenheira Civil',
-        2900.00,
+        'Segurança',
+        1302.53,
         '083987654321'
     );
 
@@ -322,8 +322,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         150,
         'S3nh@Segur@',
         TO_DATE('07/11/1990', 'DD/MM/YYYY'),
-        'Enfermeira',
-        1780.90,
+        'Auxiliar de Cozinha',
+        1310.25,
         '085987654321'
     );    
 
@@ -339,8 +339,8 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         200,
         'Senha@1234',
         TO_DATE('12/09/1991', 'DD/MM/YYYY'),
-        'Professor',
-        2250.00,
+        'Zelador',
+        1294.09,
         '084987654321'
     );
 
