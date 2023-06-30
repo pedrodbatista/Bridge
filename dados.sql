@@ -18,7 +18,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('23/05/2003', 'DD/MM/YYYY'),
         'Estudante',
         1500.00,
-        '015992345678'
+        '15992345678'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -35,7 +35,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('23/12/2002', 'DD/MM/YYYY'),
         'Estudante',
         1500.00,
-        '015962565678'
+        '15962565678'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -52,7 +52,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('21/05/2002', 'DD/MM/YYYY'),
         'Artista',
         1100.00,
-        '016924242424'
+        '16924242424'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -66,10 +66,10 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'Avenida Atlantica',
         1001,
         'carla1234',
-        TO_DATE('15/09/1990', 'DD/MM/YYYY'),
+        TO_DATE('15/09/2000', 'DD/MM/YYYY'),
         'Auxiliar de Limpeza',
         1310.39,
-        '021987654321'
+        '21987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -86,7 +86,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('07/11/1985', 'DD/MM/YYYY'),
         'Motorista de Aplicativo',
         1787.63,
-        '011987654321'
+        '11987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -100,10 +100,10 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         'Rua Antonio de Albuquerque',
         300,
         'laura1234',
-        TO_DATE('25/03/1992', 'DD/MM/YYYY'),
+        TO_DATE('25/03/1999', 'DD/MM/YYYY'),
         'Secretaria',
         1405.83,
-        '031987654321'
+        '31987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -120,7 +120,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('12/07/1995', 'DD/MM/YYYY'),
         'Garçom',
         1479.67,
-        '011987654321'
+        '11987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -137,7 +137,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('05/11/1990', 'DD/MM/YYYY'),
         'Atendente de Telemarketing',
         1325.29,
-        '021987654321'
+        '21987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -154,7 +154,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('20/02/1988', 'DD/MM/YYYY'),
         'Motorista de Onibus',
         1491.02,
-        '031987654321'
+        '31987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -171,7 +171,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('18/09/1993', 'DD/MM/YYYY'),
         'Recepcionista',
         1242.88,
-        '011987654321'
+        '11987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -188,7 +188,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('15/09/1990', 'DD/MM/YYYY'),
         'Auxiliar Administrativo',
         1356.23,
-        '092987654321'
+        '92987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -205,7 +205,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('18/06/1990', 'DD/MM/YYYY'),
         'Vendedor',
         1312.98,
-        '048987654321'
+        '48987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -222,7 +222,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('30/12/1992', 'DD/MM/YYYY'),
         'Enfermeira',
         1921.76,
-        '092987654321'
+        '92987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -239,7 +239,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('25/07/1996', 'DD/MM/YYYY'),
         'Diarista',
         1467.40,
-        '081987654321'
+        '81987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -256,7 +256,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('15/09/1993', 'DD/MM/YYYY'),
         'Professor',
         1734.72,
-        '084987654321'
+        '84987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -273,7 +273,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('05/12/1990', 'DD/MM/YYYY'),
         'Agricultor',
         1294.23,
-        '085987654321'
+        '85987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -290,7 +290,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('10/08/1995', 'DD/MM/YYYY'),
         'Feirante',
         1391.42,
-        '082987654321'
+        '82987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -307,7 +307,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('20/06/1988', 'DD/MM/YYYY'),
         'Segurança',
         1302.53,
-        '083987654321'
+        '83987654321'
     );
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -324,7 +324,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('07/11/1990', 'DD/MM/YYYY'),
         'Auxiliar de Cozinha',
         1310.25,
-        '085987654321'
+        '85987654321'
     );    
 
 INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
@@ -341,7 +341,7 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         TO_DATE('12/09/1991', 'DD/MM/YYYY'),
         'Zelador',
         1294.09,
-        '084987654321'
+        '84987654321'
     );
 
 -- Carregando dados para a tabela UNIDADE
@@ -575,7 +575,7 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
         'Goiânia',
         'Setor Central',
         'Avenida da Caridade',
-        789,
+        24721,
         '6231314141',
         NULL
     );
@@ -610,7 +610,7 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
-        'Treinamento de Excel - Parte 2',
+        'Treinamento de Excel Parte 2',
         'Este treinamento tem como objetivo ensinar algumas funcoes especificas de Excel, como formulas e automatizacao'
     );
 
@@ -622,109 +622,109 @@ INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES(
-        'Treinamento de Excel - Parte 1',
+        'Treinamento de Excel Parte 1',
         'Este treinamento tem como objetivo ensinar o basico de Excel para a organizacao de financas pessoais'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
         'Curso para Iniciantes em Hardware', 
         'Este curso tem como objetivo ensinar os conceitos básicos de hardware de computadores.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Treinamento de Utilização de Calculadoras', 
+        'Treinamento de Utilizacao de Calculadoras', 
         'Neste treinamento, os participantes serão capacitados no uso de calculadoras, abrangendo operações básicas, funções avançadas e aplicações práticas em matemática e finanças.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Curso de Introdução à Internet', 
+        'Curso de Introducao a Internet', 
         'Neste curso, os participantes aprenderão os conceitos básicos da Internet, navegação na web, pesquisa online e segurança na Internet.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Treinamento de Uso de E-mail', 
+        'Treinamento de Uso de Email', 
         'Neste treinamento, os participantes serão capacitados no uso de e-mails, abrangendo criação de contas, envio de mensagens, anexos e organização da caixa de entrada.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Curso de Noções Básicas de Redes Sociais', 
+        'Curso de Nocoes Basicas de Redes Sociais', 
         'Neste curso, os participantes serão introduzidos às principais redes sociais, aprendendo a criar perfis, interagir com amigos, compartilhar conteúdo e ajustar configurações de privacidade.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
         'Treinamento de Uso de Aplicativos de Mensagens', 
         'Neste treinamento, os participantes serão instruídos no uso de aplicativos de mensagens, como WhatsApp e Messenger, abrangendo envio de mensagens, chamadas de voz, compartilhamento de mídia e configurações de privacidade.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Curso de Introdução às Planilhas Eletrônicas', 
+        'Curso de Introducao as Planilhas Eletronicas', 
         'Neste curso, os participantes aprenderão os conceitos básicos de planilhas eletrônicas, utilizando programas como Excel ou Google Sheets, abrangendo criação de planilhas, formatação, fórmulas básicas e organização de dados.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Identificando Fake News nas notícias do WhatsApp', 
+        'Identificando Fake News nas noticias do WhatsApp', 
         'Aprenda a identificar notícias falsas e boatos nas mensagens do WhatsApp.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
         'Google Docs: formatando documentos', 
         'Domine as principais ferramentas de formatação e edição de documentos no Google Docs.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Curso de Introdução à Fotografia Digital', 
+        'Curso de Introducao a Fotografia Digital', 
         'Neste curso, os participantes aprenderão os conceitos básicos da fotografia digital, incluindo o funcionamento da câmera, técnicas de composição e edição de fotos.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Treinamento de Uso de Redes Wi-Fi', 
+        'Treinamento de Uso de Redes WiFi', 
         'Neste treinamento, os participantes aprenderão a se conectar e configurar redes Wi-Fi, além de entender conceitos de segurança e solução de problemas.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
         'Curso de Uso de Aplicativos de Transporte', 
         'Neste curso, os participantes aprenderão a utilizar aplicativos de transporte, como Uber e Lyft, incluindo solicitação de corridas, acompanhamento de motoristas e pagamento eletrônico.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
         'Treinamento de Uso de Smart TVs', 
         'Neste treinamento, os participantes serão instruídos no uso de Smart TVs, incluindo configuração, acesso a conteúdos online, instalação de aplicativos e controle remoto.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Curso de Segurança Online', 
+        'Curso de Seguranca Online', 
         'Neste curso, os participantes aprenderão sobre segurança online, incluindo proteção de senhas, navegação segura, detecção de ameaças e proteção contra malware.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Treinamento de Uso de Vídeo Chamadas', 
+        'Treinamento de Uso de Video Chamadas', 
         'Neste treinamento, os participantes serão capacitados no uso de aplicativos de vídeo chamadas, como Zoom e Skype, incluindo configuração, realização de chamadas e recursos avançados.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Curso de Edição Básica de Vídeos', 
+        'Curso de Edicao Basica de Videos', 
         'Neste curso, os participantes aprenderão os conceitos básicos de edição de vídeos, utilizando programas como Adobe Premiere ou iMovie, abrangendo corte, adição de efeitos, transições e exportação.'
     );
 
-INSERT INTO TREINAMENTO (NOME, CONTEUDO_PROGRAMATICO)
+INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
     VALUES (
-        'Treinamento de Utilização de Tablets', 
+        'Treinamento de Utilizacao de Tablets', 
         'Neste treinamento, os participantes serão instruídos na utilização de tablets, abrangendo configuração, navegação na web, download de aplicativos e personalização.'
     );
 
@@ -769,6 +769,229 @@ INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, U
         '13345878000300'
     );
 
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '95348670014',
+        'João da Silva',
+        'joao.silva@example.com',
+        'SP',
+        'São Paulo',
+        'Centro',
+        'Avenida Paulista',
+        1001,
+        '12345678000100'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '79345702816',
+        'Maria Santos',
+        'maria.santos@example.com',
+        'RJ',
+        'Rio de Janeiro',
+        'Copacabana',
+        'Rua Barata Ribeiro',
+        500,
+        '12345678000200'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '65893412048',
+        'Carlos Ferreira',
+        'carlos.ferreira@example.com',
+        'MG',
+        'Belo Horizonte',
+        'Savassi',
+        'Rua Pernambuco',
+        150,
+        '13345878000300'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '30957864027',
+        'Ana Oliveira',
+        'ana.oliveira@example.com',
+        'RS',
+        'Porto Alegre',
+        'Moinhos de Vento',
+        'Avenida Goethe',
+        200,
+        '45678901234500'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES(
+        '12546309785',
+        'Pedro Mendes',
+        'pedro.mendes@example.com',
+        'SP',
+        'Campinas',
+        'Cambuí',
+        'Rua Barreto Leme',
+        300,
+        '67890123456789'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '29018473215',
+        'Rafaela Lima',
+        'rafaela.lima@example.com',
+        'SP',
+        'São Paulo',
+        'Moema',
+        'Avenida Ibirapuera',
+        800,
+        '12345678000100'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '41857392684',
+        'Lucas Oliveira',
+        'lucas.oliveira@example.com',
+        'RJ',
+        'Rio de Janeiro',
+        'Barra da Tijuca',
+        'Avenida das Américas',
+        1500,
+        '12345678000100'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '57629138462',
+        'Fernanda Costa',
+        'fernanda.costa@example.com',
+        'MG',
+        'Belo Horizonte',
+        'Funcionários',
+        'Rua Pernambuco',
+        250,
+        '12345678000100'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '12458693001',
+        'Ricardo Santos',
+        'ricardo.santos@example.com',
+        'SP',
+        'São Paulo',
+        'Vila Olímpia',
+        'Rua Funchal',
+        700,
+        '12345678000200'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '49567820193',
+        'Amanda Fernandes',
+        'amanda.fernandes@example.com',
+        'RJ',
+        'Rio de Janeiro',
+        'Ipanema',
+        'Rua Visconde de Pirajá',
+        1200,
+        '12345678000200'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '75849361024',
+        'Gabriel Silva',
+        'gabriel.silva@example.com',
+        'MG',
+        'Belo Horizonte',
+        'Lourdes',
+        'Rua São Paulo',
+        350,
+        '12345678000200'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '29835647192',
+        'Isabela Oliveira',
+        'isabela.oliveira@example.com',
+        'SP',
+        'São Paulo',
+        'Morumbi',
+        'Avenida Morumbi',
+        500,
+        '13345878000300'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '73658321964',
+        'Gustavo Lima',
+        'gustavo.lima@example.com',
+        'MG',
+        'Belo Horizonte',
+        'Savassi',
+        'Rua Sergipe',
+        450,
+        '13345878000300'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '98537264910',
+        'Larissa Costa',
+        'larissa.costa@example.com',
+        'SP',
+        'São Paulo',
+        'Pinheiros',
+        'Rua dos Pinheiros',
+        900,
+        '13345878000300'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '12943876593',
+        'Mariana Silva',
+        'mariana.silva@example.com',
+        'SP',
+        'Campinas',
+        'Cambuí',
+        'Rua Coronel Quirino',
+        350,
+        '45678901234500'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '72659843120',
+        'Diego Mendes',
+        'diego.mendes@example.com',
+        'RJ',
+        'Rio de Janeiro',
+        'Botafogo',
+        'Rua Voluntários da Pátria',
+        800,
+        '45678901234500'
+    );
+
+INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
+    VALUES (
+        '91847362570',
+        'Carolina Santos',
+        'carolina.santos@example.com',
+        'SP',
+        'Campinas',
+        'Centro',
+        'Avenida Francisco Glicério',
+        800,
+        '67890123456789'
+    );
+
+-- Continuar colocando mais dados nesta tabela... seguir dados ja criados acima, apenas mudando cargos. Nao
+-- permita que seja colocado mais de um cargo para um mesmo cpf (ja fizemos um caso assim!)
 -- Carregando dados para a tabela FUNCIONARIO_CARGO
 INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
     VALUES(
