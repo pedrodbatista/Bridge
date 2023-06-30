@@ -55,6 +55,295 @@ INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SEN
         '016924242424'
     );
 
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '98765432100',
+        'Carla Ferreira Silva',
+        'carlaferreira@gmail.com',
+        'RJ',
+        'Rio de Janeiro',
+        'Copacabana',
+        'Avenida Atlantica',
+        1001,
+        'carla1234',
+        TO_DATE('15/09/1990', 'DD/MM/YYYY'),
+        'Auxiliar de Limpeza',
+        1300.00,
+        '021987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '76543210900',
+        'Gabriel Oliveira Lima',
+        'gabriel.olima@gmail.com',
+        'SP',
+        'Sao Paulo',
+        'Jardins',
+        'Rua Oscar Freire',
+        500,
+        'gabriel1234',
+        TO_DATE('07/11/1985', 'DD/MM/YYYY'),
+        'Uber',
+        3159.63,
+        '011987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '45678901200',
+        'Laura Mendes Souza',
+        'laura.mendes@gmail.com',
+        'MG',
+        'Belo Horizonte',
+        'Savassi',
+        'Rua Antonio de Albuquerque',
+        300,
+        'laura1234',
+        TO_DATE('25/03/1992', 'DD/MM/YYYY'),
+        'Secretaria',
+        5000.00,
+        '031987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '54321098700',
+        'Ricardo Barbosa',
+        'ricardo.barbosa@gmail.com',
+        'SP',
+        'São Paulo',
+        'Mooca',
+        'Rua da Paz',
+        100,
+        'ricardo1234',
+        TO_DATE('12/07/1995', 'DD/MM/YYYY'),
+        'Garçom',
+        1500.00,
+        '011987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '43210987600',
+        'Fernanda Costa',
+        'fernanda.costa@gmail.com',
+        'RJ',
+        'Rio de Janeiro',
+        'Ipanema',
+        'Avenida Vieira Souto',
+        2001,
+        'fernanda1234',
+        TO_DATE('05/11/1990', 'DD/MM/YYYY'),
+        'Atendente de Telemarketing',
+        1800.00,
+        '021987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '32109876500',
+        'Marcelo Lima',
+        'marcelo.lima@gmail.com',
+        'MG',
+        'Belo Horizonte',
+        'Centro',
+        'Rua da Bahia',
+        150,
+        'marcelo1234',
+        TO_DATE('20/02/1988', 'DD/MM/YYYY'),
+        'Motorista',
+        2500.00,
+        '031987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '21098765400',
+        'Amanda Gomes',
+        'amanda.gomes@gmail.com',
+        'SP',
+        'São Paulo',
+        'Pinheiros',
+        'Rua dos Pinheiros',
+        400,
+        'amanda1234',
+        TO_DATE('18/09/1993', 'DD/MM/YYYY'),
+        'Recepcionista',
+        2000.00,
+        '011987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '12345098700',
+        'Lucas Silva',
+        'lucas.silva@gmail.com',
+        'AM',
+        'Manaus',
+        'Centro',
+        'Avenida Sete de Setembro',
+        300,
+        'lucas1234',
+        TO_DATE('15/09/1990', 'DD/MM/YYYY'),
+        'Auxiliar Administrativo',
+        2500.00,
+        '092987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '34567890123',
+        'Pedro Fernandes',
+        'pedro.fernandes@gmail.com',
+        'SC',
+        'Florianópolis',
+        'Centro',
+        'Rua das Palmeiras',
+        100,
+        '!2@4N&5z',
+        TO_DATE('18/06/1990', 'DD/MM/YYYY'),
+        'Engenheiro de Software',
+        2900.00,
+        '048987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '78901234567',
+        'Larissa Almeida',
+        'larissa.almeida@gmail.com',
+        'AM',
+        'Manaus',
+        'Parque 10 de Novembro',
+        'Avenida das Torres',
+        250,
+        'T!0y%w8@',
+        TO_DATE('30/12/1992', 'DD/MM/YYYY'),
+        'Enfermeira',
+        2500.00,
+        '092987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '34567890123',
+        'Ana Santos',
+        'ana.santos@yahoo.com',
+        'PE',
+        'Recife',
+        'Boa Viagem',
+        'Avenida Boa Viagem',
+        500,
+        'Minh@Senh@123',
+        TO_DATE('25/07/1996', 'DD/MM/YYYY'),
+        'Arquiteta',
+        3000.00,
+        '081987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '23456789012',
+        'Ricardo Pereira',
+        'ricardo.pereira@yahoo.com.br',
+        'RN',
+        'Natal',
+        'Ponta Negra',
+        'Rua da Praia',
+        150,
+        'Senha123!',
+        TO_DATE('15/09/1993', 'DD/MM/YYYY'),
+        'Professor',
+        2600.00,
+        '084987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '67890123456',
+        'João Santos',
+        'joao.santos@outlook.com',
+        'CE',
+        'Fortaleza',
+        'Meireles',
+        'Rua Barão de Aracati',
+        250,
+        'S3nhaFort3!',
+        TO_DATE('05/12/1990', 'DD/MM/YYYY'),
+        'Advogado',
+        3200.00,
+        '085987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '45678901234',
+        'Maria Oliveira',
+        'maria.oliveira@hotmail.com',
+        'AL',
+        'Maceió',
+        'Ponta Verde',
+        'Avenida Beira Mar',
+        100,
+        'P@ssw0rd!',
+        TO_DATE('10/08/1995', 'DD/MM/YYYY'),
+        'Enfermeira',
+        2800.00,
+        '082987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '89012345678',
+        'Fernanda Lima',
+        'fernanda.lima@yahoo.com',
+        'PB',
+        'João Pessoa',
+        'Bessa',
+        'Avenida Gov. Argemiro de Figueiredo',
+        300,
+        'P@ssword123',
+        TO_DATE('20/06/1988', 'DD/MM/YYYY'),
+        'Engenheira Civil',
+        2900.00,
+        '083987654321'
+    );
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '67890123456',
+        'Juliana Oliveira',
+        'juliana.oliveira@yahoo.com',
+        'CE',
+        'Fortaleza',
+        'Aldeota',
+        'Rua Monsenhor Catão',
+        150,
+        'S3nh@Segur@',
+        TO_DATE('07/11/1990', 'DD/MM/YYYY'),
+        'Enfermeira',
+        1780.90,
+        '085987654321'
+    );    
+
+INSERT INTO ASSISTIDO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, SENHA, DATA_NASC, PROFISSAO, RENDA_MENSAL, TEL)
+    VALUES (
+        '78901234567',
+        'Pedro Santos',
+        'pedro.santos@gmail.com',
+        'RN',
+        'Natal',
+        'Lagoa Nova',
+        'Rua Jaguarari',
+        200,
+        'Senha@1234',
+        TO_DATE('12/09/1991', 'DD/MM/YYYY'),
+        'Professor',
+        2250.00,
+        '084987654321'
+    );
+
 -- Carregando dados para a tabela UNIDADE
 
 INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
