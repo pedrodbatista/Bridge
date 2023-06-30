@@ -1991,8 +1991,300 @@ INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
         100
     );
 
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '23456789000300', 
+        0, 
+        7, 
+        'AULA', 
+        100
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '23456789000300', 
+        1, 
+        7, 
+        'lab', 
+        30
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '23456789000300', 
+        1, 
+        2, 
+        'laB', 
+        12
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '34567890000400', 
+        1, 
+        1, 
+        'aula', 
+        5
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '34567890000400', 
+        0, 
+        2, 
+        'aula', 
+        5
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '34567890000400', 
+        1, 
+        3, 
+        'aula', 
+        10
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '34567890000400', 
+        0, 
+        4, 
+        'aula', 
+        5
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '34567890000400', 
+        0, 
+        5, 
+        'lab', 
+        5
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234500', 
+        1, 
+        1, 
+        'lab', 
+        66
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234500', 
+        1, 
+        2, 
+        'aula', 
+        62
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234500', 
+        1, 
+        3, 
+        'lab', 
+        68
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234500', 
+        1, 
+        4, 
+        'lab', 
+        66
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '56789012340600', 
+        2, 
+        14, 
+        'aula', 
+        66
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '56789012340600', 
+        1, 
+        14, 
+        'aula', 
+        4
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '67890123456706', 
+        1, 
+        2777, 
+        'lab', 
+        78
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '78901234567807', 
+        0, 
+        2, 
+        'aula', 
+        35
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '89012345678908', 
+        0, 
+        12, 
+        'aula', 
+        25
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '90123456789009', 
+        0, 
+        12, 
+        'lab', 
+        25
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '01234567890100', 
+        0, 
+        100, 
+        'lab', 
+        23
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '01234567890100', 
+        1, 
+        100, 
+        'AULA', 
+        30
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '12345678901211', 
+        0, 
+        100, 
+        'AULA', 
+        30
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '12458963000112', 
+        0, 
+        100, 
+        'AULA', 
+        30
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '98765432000123', 
+        1, 
+        21, 
+        'AULA', 
+        41
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234590', 
+        0, 
+        100, 
+        'LAB', 
+        30
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234590', 
+        0, 
+        8, 
+        'LAB', 
+        30
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234590', 
+        0, 
+        89, 
+        'LAB', 
+        33
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234590', 
+        1, 
+        1, 
+        'LAB', 
+        33
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234590', 
+        0, 
+        29, 
+        'LAB', 
+        33
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '45678901234590', 
+        0, 
+        30, 
+        'AULA', 
+        33
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '34567890123456', 
+        0, 
+        30, 
+        'AULA', 
+        39
+    );
+
+INSERT INTO SALA(UNIDADE, ANDAR, NUMERO, TIPO, CAPACIDADE)
+    VALUES(
+        '67890123456789', 
+        1, 
+        30, 
+        'AULA', 
+        37
+    );
 
 -- Carregando dados para a tabela LABORATORIO
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '01234567890100',
+        0,
+        100
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000100',
+        2,
+        14
+    );
 
 INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
     VALUES(
@@ -2001,7 +2293,364 @@ INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
         21
     );
 
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000100',
+        0,
+        2
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        3
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        7
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        9
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        11
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        13
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        15
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        17
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        19
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        5
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        0,
+        31
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        0,
+        33
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        0,
+        29
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '23456789000300',
+        1,
+        2
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        1,
+        7
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '34567890000400',
+        0,
+        5
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234500',
+        1,
+        3
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234500',
+        1,
+        1
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234500',
+        1,
+        4
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234590',
+        0,
+        29
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234590',
+        0,
+        100
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234590',
+        0,
+        8
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234590',
+        0,
+        89
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234590',
+        1,
+        1
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '67890123456706',
+        1,
+        2777
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        0,
+        37
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        0,
+        1
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        0,
+        15
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        0,
+        41
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        0,
+        23
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        0,
+        8
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '90123456789009',
+        0,
+        12
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        2,
+        2
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        4
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        6
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        9
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        22
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        8
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        12
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        2,
+        4
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        11
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        2,
+        13
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        6
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        2,
+        14
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        2
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        10
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        2,
+        3
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        5
+    );
+
+INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        13
+    );
+
 -- Carregando dados para a tabela SALA_DE_AULA
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '01234567890100',
+        1,
+        100
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000100',
+        1,
+        5
+    );
 
 INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
     VALUES(
@@ -2012,9 +2661,408 @@ INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
 
 INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
     VALUES(
+        '12345678000100',
+        1,
+        37
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000100',
+        2,
+        31
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000100',
+        0,
+        1
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        10
+    );
+    
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        12
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        14
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        16
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        18
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        2,
+        20
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        8
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        2
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        4
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        6
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
         '12345678000200',
         0,
         0
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678000200',
+        1,
+        1
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12345678901211',
+        0,
+        100
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '12458963000112',
+        0,
+        100
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        3,
+        14
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        4,
+        21
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        2,
+        20
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        2,
+        7
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        3,
+        12
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        4,
+        19
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        1,
+        25
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        2,
+        33
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        3,
+        8
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        4,
+        16
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        1,
+        22
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        2,
+        28
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        3,
+        3
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        4,
+        9
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        1,
+        18
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '13345878000300',
+        2,
+        31
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '23456789000300',
+        1,
+        1
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '23456789000300',
+        0,
+        7
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '34567890000400',
+        1,
+        3
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '34567890000400',
+        0,
+        4
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '34567890000400',
+        1,
+        1
+    );
+    
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '34567890000400',
+        0,
+        2
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '34567890123456',
+        0,
+        30
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234500',
+        1,
+        2
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '45678901234590',
+        0,
+        30
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '56789012340600',
+        1,
+        14
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '56789012340600',
+        2,
+        14
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '67890123456789',
+        1,
+        30
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '78901234567807',
+        0,
+        2
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        2,
+        7
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        3,
+        21
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        1,
+        9
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        2,
+        12
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '87654321000100',
+        1,
+        17
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '89012345678908',
+        0,
+        12
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000123',
+        1,
+        21
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        7
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        1
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        5
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        0,
+        3
+    );
+
+INSERT INTO SALA_DE_AULA(UNIDADE, ANDAR, NUMERO)
+    VALUES(
+        '98765432000200',
+        1,
+        14
     );
 
 -- Carregando dados para a tabela EQUIPAMENTO
