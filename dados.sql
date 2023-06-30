@@ -385,6 +385,227 @@ INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1,
         '3135433129'
     );
 
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '87654321000100', 
+        'Unidade Praia Formosa',
+        'RJ',
+        'Rio de Janeiro',
+        'Copacabana',
+        'Avenida Atlântica',
+        1234,
+        '2123456789',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '98765432000200', 
+        'Unidade Centro Histórico',
+        'RS',
+        'Porto Alegre',
+        'Centro',
+        'Rua dos Andradas',
+        567,
+        '5133334444',
+        '5133335555'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '23456789000300', 
+        'Unidade Palmas',
+        'TO',
+        'Palmas',
+        'Plano Diretor Sul',
+        'Quadra 103 Norte',
+        789,
+        '6332323232',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '34567890000400', 
+        'Unidade Boa Vista',
+        'RR',
+        'Boa Vista',
+        'Mecejana',
+        'Rua Surumu',
+        456,
+        '9599998888',
+        '9599997777'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '45678901234500', 
+        'Unidade Vitória, Fé e Esperança',
+        'ES',
+        'Vitória',
+        'Centro',
+        'Avenida Jerônimo Monteiro',
+        321,
+        '2734343434',
+        '2734342424'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '56789012340600', 
+        'Unidade Esperança Solidária',
+        'PE',
+        'Recife',
+        'Boa Viagem',
+        'Rua da Solidariedade',
+        987,
+        '8132121212',
+        '8132121313'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '67890123456706', 
+        'Unidade Mãos que Ajudam',
+        'MG',
+        'Belo Horizonte',
+        'Santo Antônio',
+        'Avenida da Generosidade',
+        654,
+        '3131313131',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '78901234567807', 
+        'Unidade Luz Divina',
+        'SP',
+        'São Paulo',
+        'Bom Retiro',
+        'Rua da Paz',
+        321,
+        '1122223333',
+        '1122224444'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '89012345678908', 
+        'Unidade Amor Fraterno',
+        'RJ',
+        'Rio de Janeiro',
+        'Laranjeiras',
+        'Rua do Bem',
+        456,
+        '2121212121',
+        '2121212222'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '90123456789009', 
+        'Unidade Acolhimento Solidário',
+        'MG',
+        'Belo Horizonte',
+        'Barro Preto',
+        'Avenida da Caridade',
+        789,
+        '3131314141',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '01234567890100', 
+        'Unidade Caridade em Ação',
+        'ES',
+        'Vitória',
+        'Jardim Camburi',
+        'Rua da Generosidade',
+        123,
+        '2736363636',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '12345678901211', 
+        'Unidade Esperança Renovada',
+        'SP',
+        'Campinas',
+        'Centro',
+        'Avenida Solidária',
+        987,
+        '1932323232',
+        '1932323434'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '12458963000112', 
+        'Unidade Serra Encantada',
+        'MT',
+        'Cuiabá',
+        'Centro Sul',
+        'Rua da Solidariedade',
+        123,
+        '6533333333',
+        '6533334444'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '98765432000123', 
+        'Unidade Lagoa Serena',
+        'MS',
+        'Campo Grande',
+        'Centro',
+        'Avenida Solidária',
+        456,
+        '6732323232',
+        '6732323434'
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '45678901234590', 
+        'Unidade Serra Dourada',
+        'GO',
+        'Goiânia',
+        'Setor Central',
+        'Avenida da Caridade',
+        789,
+        '6231314141',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '34567890123456', 
+        'Unidade Lago Azul',
+        'DF',
+        'Brasília',
+        'Asa Sul',
+        'Quadra da Generosidade',
+        123,
+        '6136363636',
+        NULL
+    );
+
+INSERT INTO UNIDADE(CNPJ, COMUNIDADE, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, TEL1, TEL2)
+    VALUES(
+        '67890123456789', 
+        'Unidade Vale do Sol',
+        'MT',
+        'Rondonópolis',
+        'Centro',
+        'Rua Esperança',
+        987,
+        '6634343434',
+        '6634342424'
+    );
+
 -- Carregando dados para a tabela TREINAMENTO
 
 INSERT INTO TREINAMENTO(NOME, CONTEUDO_PROGRAMATICO)
