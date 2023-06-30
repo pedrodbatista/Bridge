@@ -2394,7 +2394,7 @@ INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
 INSERT INTO LABORATORIO(UNIDADE, ANDAR, NUMERO)
     VALUES(
         '13345878000300',
-        1,
+        2,
         7
     );
 
@@ -3676,6 +3676,116 @@ INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
         NULL,
         NULL
     );
+    
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'iJNSIQ34J',
+        'COMPUTADOR',
+        'Com algumas marcas de uso no gabinete. Doado pela instituição Filadélfia',
+        '98765432000200',
+        0,
+        7
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'QQQWK23CL9',
+        'Monitor',
+        'Em perfeito estado - 15'' LED',
+        '98765432000200',
+        0,
+        7
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '88rj39dIj',
+        'Monitor',
+        'Em perfeito estado - 15'' LED',
+        '98765432000200',
+        0,
+        9
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        '8G32jdaqwvj',
+        'Mouse',
+        'não funciona a rolagem...',
+        '98765432000123',
+        1,
+        21
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'ABCD12345678',
+        'Teclado',
+        'É mecânico. Foicomprado pelo depto financeiro da unidade',
+        '90123456789009',
+        0,
+        12
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'EFGH87654321',
+        'Teclado',
+        'usb - Comprado pelo depto financeiro da unidade',
+        '89012345678908',
+        0,
+        12
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'IJKL45678901',
+        'SSD',
+        '156gb, Comprado pelo depto financeiro da unidade',
+        '87654321000100',
+        0,
+        41
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'QRST21098765',
+        'HD',
+        '500 tb. Doado por instituicao filantropica',
+        '87654321000100',
+        2,
+        7
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'MNOP98765432',
+        'SSD',
+        '156gb Comprado pelo depto financeiro da unidade',
+        '87654321000100',
+        0,
+        37
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'DKO93CJ2KSO',
+        'Calculadora',
+        'Assistido doou para unidade',
+        '45678901234590',
+        0,
+        89
+    );
+
+INSERT INTO EQUIPAMENTO(NUMERO_SERIAL, TIPO, DESCRICAO, UNIDADE, ANDAR, SALA)
+    VALUES(
+        'DKO93C668KSO',
+        'computador',
+        'Assistido doou para unidade',
+        '23456789000300',
+        1,
+        7
+    );
 
 -- Carregando dados para a tabela OFERECIMENTO
 
@@ -3913,7 +4023,7 @@ INSERT INTO SOLICITACAO_DOACAO(ASSISTIDO, DATA_HORA_SOL, GRAU_NECESSIDADE, TIPO_
 INSERT INTO SOLICITACAO_DOACAO(ASSISTIDO, DATA_HORA_SOL, GRAU_NECESSIDADE, TIPO_EQUIPAMENTO, EQUIPAMENTO, DATA_HORA_DOACAO)
     VALUES(
         '54321098700',
-        TO_TIMESTAMP('29-02-2023 13:10:00', 'DD-MM-YYYY HH24:MI:SS'),
+        TO_TIMESTAMP('28-02-2023 13:10:00', 'DD-MM-YYYY HH24:MI:SS'),
         7,
         'celular',
         NULL,
@@ -4043,7 +4153,7 @@ INSERT INTO SOLICITACAO_DOACAO(ASSISTIDO, DATA_HORA_SOL, GRAU_NECESSIDADE, TIPO_
 INSERT INTO SOLICITACAO_DOACAO(ASSISTIDO, DATA_HORA_SOL, GRAU_NECESSIDADE, TIPO_EQUIPAMENTO, EQUIPAMENTO, DATA_HORA_DOACAO)
     VALUES(
         '67890123456',
-        TO_TIMESTAMP('05-29-2023 19:14:04', 'DD-MM-YYYY HH24:MI:SS'),
+        TO_TIMESTAMP('29-05-2023 19:14:04', 'DD-MM-YYYY HH24:MI:SS'),
         10,
         'computador',
         NULL,
@@ -4063,7 +4173,7 @@ INSERT INTO SOLICITACAO_DOACAO(ASSISTIDO, DATA_HORA_SOL, GRAU_NECESSIDADE, TIPO_
 INSERT INTO SOLICITACAO_DOACAO(ASSISTIDO, DATA_HORA_SOL, GRAU_NECESSIDADE, TIPO_EQUIPAMENTO, EQUIPAMENTO, DATA_HORA_DOACAO)
     VALUES(
         '67890123476',
-        TO_TIMESTAMP('05-29-2021 19:14:04', 'DD-MM-YYYY HH24:MI:SS'),
+        TO_TIMESTAMP('29-05-2021 19:14:04', 'DD-MM-YYYY HH24:MI:SS'),
         1,
         'impressora',
         NULL,
