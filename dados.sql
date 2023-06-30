@@ -954,7 +954,7 @@ INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, U
 INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
     VALUES (
         '12943876593',
-        'Mariana Silva',
+        'Mariana Silva Andrade Moreira',
         'mariana.silva@example.com',
         'SP',
         'Campinas',
@@ -967,7 +967,7 @@ INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, U
 INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, UNIDADE)
     VALUES (
         '72659843120',
-        'Diego Mendes',
+        'Diego Mendes Furtado',
         'diego.mendes@example.com',
         'RJ',
         'Rio de Janeiro',
@@ -990,8 +990,6 @@ INSERT INTO FUNCIONARIO(CPF, NOME, EMAIL, ESTADO, CIDADE, BAIRRO, RUA, NUMERO, U
         '67890123456789'
     );
 
--- Continuar colocando mais dados nesta tabela... seguir dados ja criados acima, apenas mudando cargos. Nao
--- permita que seja colocado mais de um cargo para um mesmo cpf (ja fizemos um caso assim!)
 -- Carregando dados para a tabela FUNCIONARIO_CARGO
 INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
     VALUES(
@@ -1007,14 +1005,128 @@ INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
 
 INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
     VALUES(
-        '68395827701',
+        '68395827701', -- Teste de caso de funcionario com mais de um cargo (monitor + admin)
         'ADMiN'
     );
 
 INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
     VALUES(
         '68395827701',
+        'mOnITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '95348670014', -- Teste de caso de funcionario com mais de um cargo (monitor + prof) - cuidado c/ oferecimento e horarios
+        'PROF'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '95348670014',
         'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '79345702816',
+        'ADMIN'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '65893412048',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '30957864027',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '12546309785',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '29018473215',
+        'ADMIN'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '41857392684',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '57629138462',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '12458693001',
+        'PROF'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '49567820193',
+        'PROF'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '75849361024',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '29835647192',
+        'ADMIN'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '29835647192', -- Professor + admin
+        'prof' 
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '73658321964',
+        'PROF'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '98537264910',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '12943876593',
+        'ADMIN'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '72659843120',
+        'MONITOR'
+    );
+
+INSERT INTO FUNCIONARIO_CARGO(FUNCIONARIO, CARGO)
+    VALUES(
+        '91847362570',
+        'PROF'
     );
 
 -- Carregando dados para a tabela ADMINISTRADOR
@@ -1031,6 +1143,30 @@ INSERT INTO ADMINISTRADOR(CPF, SENHA)
         'AL_123'
     );
 
+INSERT INTO ADMINISTRADOR(CPF, SENHA)
+    VALUES(
+        '79345702816',
+        'X8#f&zasçldw@2'
+    );
+
+INSERT INTO ADMINISTRADOR(CPF, SENHA)
+    VALUES(
+        '29018473215',
+        'Y$5g#7^jf2op'
+    );
+
+INSERT INTO ADMINISTRADOR(CPF, SENHA)
+    VALUES(
+        '29835647192',
+        'Z@9q%2!s'
+    );
+
+INSERT INTO ADMINISTRADOR(CPF, SENHA)
+    VALUES(
+        '12943876593',
+        'W3*r!p$7239jdke24'
+    );
+
 -- Carregando dados para a tabela PROFESSOR
 
 INSERT INTO PROFESSOR(CPF)
@@ -1038,11 +1174,86 @@ INSERT INTO PROFESSOR(CPF)
         '50384912250'
     );
 
+INSERT INTO PROFESSOR(CPF)
+    VALUES(
+        '95348670014'
+    );
+
+INSERT INTO PROFESSOR(CPF)
+    VALUES(
+        '12458693001'
+    );
+
+INSERT INTO PROFESSOR(CPF)
+    VALUES(
+        '49567820193'
+    );
+
+INSERT INTO PROFESSOR(CPF)
+    VALUES(
+        '29835647192'
+    );
+
+INSERT INTO PROFESSOR(CPF)
+    VALUES(
+        '73658321964'
+    );
+
+INSERT INTO PROFESSOR(CPF)
+    VALUES(
+        '91847362570'
+    );
+
 -- Carregando dados para a tabela MONITOR
 
 INSERT INTO MONITOR(CPF)
     VALUES(
         '68395827701'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '65893412048'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '30957864027'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '12546309785'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '41857392684'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '57629138462'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '75849361024'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '98537264910'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '72659843120'
+    );
+
+INSERT INTO MONITOR(CPF)
+    VALUES(
+        '72659843120'
     );
 
 -- Carregando dados para a tabela SALA
