@@ -34,7 +34,7 @@ WHERE EQUIPAMENTO IS NULL
 ORDER BY PRIORIDADE DESC;
 
 -- Query #3 ------------------------------------------------------------------------------------
--- Contar por dia da semana quantos oferecimentos estao ativos em uma determinada unidade [12345678000200]
+-- Contar, por dia da semana, quantidade de agendamentos de oferecimentos ativos atualmente em uma determinada unidade [12345678000200]
 -- Case para transformar o dia da semana em string
 SELECT 
 CASE
