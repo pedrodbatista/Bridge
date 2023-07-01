@@ -39,7 +39,10 @@ def main():
         else:
             print("\nComando inválido. Por favor, tente novamente\n.")
 
-# Função que lê da entrada uma string que deve ser um número
+# Função que lê da entrada uma string que deve ser composta por dígitos
+# * mensagem: texto que explica para o usuário o que ele deve entrar
+# * msg_err: texto que explica para o usuário porque ocorreu um erro quando não foram inseridos apenas dígitos
+# * digit_amt: parâmetro opcional. Caso seja informado, representa o número de dígitos exato que o número lido deve conter
 def ler_numero(mensagem, msg_err, digit_amt=None):
     num = ""
     while True:
@@ -53,7 +56,8 @@ def ler_numero(mensagem, msg_err, digit_amt=None):
 
     return num
         
-
+# Função que se conecta ao banco de dados para inserir uma nova unidade.
+# As informações da nova unidade são pedidade ao usuário.
 def insert_unidade():
     conn = None
 
@@ -104,7 +108,8 @@ def insert_unidade():
         if conn:
             conn.close()
 
-
+# Função que informa ao usuário os estados brasileiros válidos numa lista indexada.
+# Lê-se, então, o índice correspondente ao estado escolhido e retorna a string que representa o estado correspondente.
 def input_estado_valido(message):
     ESTADOS_VALIDOS = [
         'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO',
@@ -120,14 +125,13 @@ def input_estado_valido(message):
             opcao = int(input(message))
             if opcao in range(1, len(ESTADOS_VALIDOS) + 1):
                 print("\tEstado selecionado: " + ESTADOS_VALIDOS[opcao - 1])
-
                 return ESTADOS_VALIDOS[opcao - 1]
             else:
                 print("\nOpção inválida. Por favor, escolha um número correspondente a um estado válido.\n")
         except ValueError:
             print("\nEntrada inválida. Por favor, digite um número.\n")
 
-
+# Função que imprime o texto passado no terminal dentro de uma caixinha
 def print_text_in_box(text):
     text = "\n" + text
     lines = text.split('\n')
@@ -143,6 +147,7 @@ def print_text_in_box(text):
     # Imprime a borda inferior
     print('|' + '_' * (max_length + 2) + '|')
 
+# Função que consulta a base de dados para testar se existe uma unidade com o CNPJ passado
 def existe_unidade(cnpj):
     conn = None
     unidade = []
@@ -173,6 +178,9 @@ def existe_unidade(cnpj):
 
     return (unidade is not None)
 
+# Função que consulta o banco de dados buscando por uma unidade com o CNPJ passado.
+# Caso exista a unidade, imprime suas informações
+# Caso não exista, informa que a unidade não foi encontrada
 def buscar_unidade_por_cnpj(cnpj):
     conn = None
 
