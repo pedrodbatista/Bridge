@@ -57,17 +57,17 @@ AND CURRENT_DATE BETWEEN O.DATA_HORA_INICIO AND O.DATA_HORA_FIM
 GROUP BY DAY_NAME;
 
 -- Query #4 --
--- Todos os assistido que nao fizeram nenhum treinamento em [Java, Python]
+-- Todos os assistido que nao fizeram nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
 SELECT A.NOME FROM
 ASSISTIDO A WHERE
--- Consulta alinhada para ver se o assistido nao fez nenhum treinamento em [Java, Python]
+-- Consulta alinhada para ver se o assistido nao fez nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
 A.CPF NOT IN
 (
-    -- Todos os treinamentos em [Java, Python]
+    -- Todos os oferecimentos para [Treinamento de Excel Parte 1, Treinamento de Excel Parte 1]
     SELECT ISE.ASSISTIDO FROM
     INSCREVE_SE_EM ISE JOIN OFERECIMENTO O 
     ON O.PROFESSOR = ISE.PROFESSOR AND O.DATA_HORA_INICIO = ISE.INICIO_OFERECIMENTO 
-    WHERE UPPER(O.TREINAMENTO) IN ('JAVA', 'PYTHON')
+    WHERE UPPER(O.TREINAMENTO) IN ('Treinamento de Excel Parte 1', 'Treinamento de Excel Parte 2')
 );
 
 -- Query #5 --
