@@ -56,10 +56,10 @@ AND CURRENT_DATE BETWEEN O.DATA_HORA_INICIO AND O.DATA_HORA_FIM
 GROUP BY DAY_NAME;
 
 -- Query #4 ------------------------------------------------------------------------------------
--- Todos os assistido que nao fizeram nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
+-- Todos os assistidos que nao fizeram nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
 SELECT A.NOME FROM
 ASSISTIDO A WHERE
--- Consulta alinhada para ver se o assistido nao fez nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
+-- Consulta aninhada para ver se o assistido nao fez nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
 A.CPF NOT IN
 (
     -- Todos os oferecimentos para [Treinamento de Excel Parte 1, Treinamento de Excel Parte 1]
