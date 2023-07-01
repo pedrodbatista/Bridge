@@ -13,7 +13,7 @@ ASSISTIDO A WHERE NOT EXISTS (
 
     EXCEPT
 
-    -- Todos os certificados que um determinado assistido terminou
+    -- Todos os treinamentos que um determinado assistido terminou e nos quais eh certificado
     (
         SELECT CE.TREINAMENTO FROM
         CERTIFICA CE 
@@ -34,7 +34,7 @@ WHERE EQUIPAMENTO IS NULL
 ORDER BY PRIORIDADE DESC;
 
 -- Query #3 ------------------------------------------------------------------------------------
--- Contar por dia da semana quantos oferecimentos estao ativos em uma determinada unidade [undade_selected]
+-- Contar por dia da semana quantos oferecimentos estao ativos em uma determinada unidade [12345678000200]
 -- Case para transformar o dia da semana em string
 SELECT 
 CASE
@@ -56,13 +56,13 @@ AND CURRENT_DATE BETWEEN O.DATA_HORA_INICIO AND O.DATA_HORA_FIM
 GROUP BY DAY_NAME;
 
 -- Query #4 ------------------------------------------------------------------------------------
--- Todos os assistidos que nao fizeram nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
+-- Consultar todos os assistidos que nao fizeram nenhum treinamento em ['Treinamento de Excel Parte 1', 'Treinamento de Excel Parte 2']
 SELECT A.NOME FROM
 ASSISTIDO A WHERE
--- Consulta aninhada para ver se o assistido nao fez nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
+-- Consulta aninhada para ver se o assistido nao fez nenhum treinamento em ['Treinamento de Excel Parte 1', 'Treinamento de Excel Parte 2']
 A.CPF NOT IN
 (
-    -- Todos os oferecimentos para [Treinamento de Excel Parte 1, Treinamento de Excel Parte 1]
+    -- Todos os oferecimentos para ['Treinamento de Excel Parte 1', 'Treinamento de Excel Parte 1']
     SELECT ISE.ASSISTIDO FROM
     INSCREVE_SE_EM ISE JOIN OFERECIMENTO O 
     ON O.PROFESSOR = ISE.PROFESSOR AND O.DATA_HORA_INICIO = ISE.INICIO_OFERECIMENTO 
@@ -70,7 +70,7 @@ A.CPF NOT IN
 );
 
 -- Query #5 ------------------------------------------------------------------------------------
--- Todos os professores que dao pelo menos [qtd_aulas_selected] aulas em uma determinada unidade [unidade_selected], e a quantidade media de alunos nesses oferecimentos
+-- Selecionar todos os professores que dao pelo menos [2] aulas em uma determinada unidade [12345678000100], e a quantidade media de alunos nesses oferecimentos
 SELECT F.NOME, O.PROFESSOR, AVG(QTD_ALUNOS), COUNT(O.TREINAMENTO) AS QTD_OFERECIMENTOS FROM
 OFERECIMENTO O RIGHT JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
 WHERE O.UNIDADE = '12345678000100'
