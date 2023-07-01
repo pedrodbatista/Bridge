@@ -9,5 +9,7 @@
 |   Pedro Dias Batista                |  10769809 |    pedrodb@usp.br           |
 
 # Diagrama Entidade-Relacionamento
+![DER_BRIDGE](assets/bridge_der-1.png)
 
 # Modelo Relacional
+![MREL_BRIDGE](assets/bridge_mr-1.png)
