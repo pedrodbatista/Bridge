@@ -86,7 +86,7 @@ def insert_unidade():
 
             tel1 = ler_numero("Digite o telefone 1 da unidade: ", "O telefone deve conter apenas dígitos.")
 
-            command = input("Quer adicionar outro telefone para a unidade? Digite 'S' se sim, outra coisa se não.").strip()
+            command = input("Quer adicionar outro telefone para a unidade? Digite 'S' se sim, outra coisa se não: ").strip()
             tel2 = ler_numero("Digite o telefone 1 da unidade: ", "O telefone deve conter apenas dígitos.") if command[0].lower() == 's' else None
 
             # Executar a inserção na tabela de unidade
