@@ -1,4 +1,4 @@
--- Query #1 --
+-- Query #1 ------------------------------------------------------------------------------------
 SELECT A.CPF, A.NOME, A.EMAIL FROM
 -- Consulta de todos os alunos que completaram todos os treinamentos
 -- oferecidos por um professor [Danielle Modesti]
@@ -13,7 +13,6 @@ ASSISTIDO A WHERE NOT EXISTS (
 
     EXCEPT
 
-
     -- Todos os certificados que um determinado assistido terminou
     (
         SELECT CE.TREINAMENTO FROM
@@ -22,7 +21,7 @@ ASSISTIDO A WHERE NOT EXISTS (
     )
 );
 
--- Query #2 --
+-- Query #2 ------------------------------------------------------------------------------------
 -- Listar solicitacoes nao atendidas ordenadas por grau de prioridade, e cidade dos que fizeram a solicitacao
 -- A prioridade e uma funcao dada por GRAU_NECESSIDADE / DATA_HORA_SOL
 SELECT SOL.ASSISTIDO, SOL.DATA_HORA_SOL, A.ESTADO, A.CIDADE, (GRAU_NECESSIDADE * 1000 / EXTRACT(EPOCH FROM DATA_HORA_SOL)) AS PRIORIDADE
@@ -34,7 +33,7 @@ WHERE EQUIPAMENTO ISNULL
 -- Ordena pela prioridade
 ORDER BY PRIORIDADE DESC;
 
--- Query #3 --
+-- Query #3 ------------------------------------------------------------------------------------
 -- Contar por dia da semana quantos oferecimentos estao ativos em uma determinada unidade [undade_selected]
 -- Case para transformar o dia da semana em string
 SELECT 
@@ -56,7 +55,7 @@ AND CURRENT_DATE BETWEEN O.DATA_HORA_INICIO AND O.DATA_HORA_FIM
 
 GROUP BY DAY_NAME;
 
--- Query #4 --
+-- Query #4 ------------------------------------------------------------------------------------
 -- Todos os assistido que nao fizeram nenhum treinamento em [Treinamento de Excel Parte 1, Treinamento de Excel Parte 2]
 SELECT A.NOME FROM
 ASSISTIDO A WHERE
@@ -70,7 +69,7 @@ A.CPF NOT IN
     WHERE UPPER(O.TREINAMENTO) IN ('Treinamento de Excel Parte 1', 'Treinamento de Excel Parte 2')
 );
 
--- Query #5 --
+-- Query #5 ------------------------------------------------------------------------------------
 -- Todos os professores que dao pelo menos [qtd_aulas_selected] aulas em uma determinada unidade [unidade_selected], e a quantidade media de alunos nesses oferecimentos
 SELECT F.NOME, O.PROFESSOR, AVG(QTD_ALUNOS), COUNT(O.TREINAMENTO) AS QTD_OFERECIMENTOS FROM
 OFERECIMENTO O RIGHT JOIN FUNCIONARIO F ON F.CPF = O.PROFESSOR
