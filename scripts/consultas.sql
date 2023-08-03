@@ -53,7 +53,7 @@ WHERE O.UNIDADE = '12345678000200'
 
 AND CURRENT_DATE BETWEEN O.DATA_HORA_INICIO AND O.DATA_HORA_FIM
 
-GROUP BY DAY_NAME;
+GROUP BY DIA_DA_SEMANA;
 
 -- Query #4 ------------------------------------------------------------------------------------
 -- Consultar todos os assistidos que nao fizeram nenhum treinamento em ['Treinamento de Excel Parte 1', 'Treinamento de Excel Parte 2']
