@@ -1,9 +1,11 @@
 # Bridge - A System for Access and Technological Training for local communities.
-Tecnologies Used
-Python3 - Used for making the prototype that acess the API for the DBMS
-PostegreeSQL - Data base management system, used for making the tables and queries
 
-# RUNNING the prototype
+
+## Tecnologies
+**Python3** - For making the prototype that acess the API for the DBMS<br>
+**PostegreeSQL** - Data base management system, used for making the tables and queries
+
+## RUNNING the prototype
 ### Libreries needed:
 psycopg2<br>python-dotenv<br><br>For installing these libraries using python install package in Linux Ubuntu you can run this:
 <br>
