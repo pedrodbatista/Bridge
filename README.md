@@ -8,7 +8,7 @@ In this project, we developed a database for a community-oriented system aimed a
 **PostegreeSQL** - Data base management system, used for making the tables and queries
 
 ## RUNNING the prototype
-### Libreries needed:
+### Libraries needed:
 psycopg2<br>python-dotenv<br><br>For installing these libraries using python install package in Linux Ubuntu you can run this:
 <br>
 ```
