@@ -1,5 +1,7 @@
 # Bridge - A System for Access and Technological Training for local communities.
+In this project, we developed a database for a community-oriented system aimed at supporting local communities in our 'Bridge' initiative, which seeks to empower vulnerable communities through education and skill development. This database was specifically created to facilitate this project.
 
+<br>For more details, please refer to the documentation (written in Portuguese)
 
 ## Tecnologies
 **Python3** - For making the prototype that acess the API for the DBMS<br>
