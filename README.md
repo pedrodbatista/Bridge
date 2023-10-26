@@ -5,7 +5,7 @@ In this project, we developed a database for a community-oriented system aimed a
 
 ## Tecnologies
 **Python3** - For making the prototype that acess the API for the DBMS<br>
-**PostegreeSQL** - Data base management system, used for making the tables and queries
+**PostgreSQL** - Data base management system, used for making the tables and queries
 
 ## RUNNING the prototype
 ### Libraries needed:
